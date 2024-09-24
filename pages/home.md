@@ -41,7 +41,7 @@ sectionid: home
         <div class="col-sm-4">
             <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
             <h3 class="text-center">Leverage Open-Source Tools</h3>
-            <p>Participants are encouraged to use open-source tools like Python, ParaView, and VTK for data analysis and visualization. You’ll also have access to cloud-based platforms for working with large-scale datasets, making it easier to run your visualizations from anywhere in the world.</p>
+            <p>Participants are encouraged to use open-source tools and packages like OpenVisus, Openvisuspy, Python, ParaView, and VTK for data analysis and visualization. The data is completely hosted in cloud, making it easier to run your visualizations from anywhere in the world.</p>
         </div>
     </div>
     <hr>
