@@ -1,6 +1,7 @@
 ---
-title: Customization
-permalink: /docs/customization/
+title: Task 1
+permalink: /tasks/task1/
+sectionid: task1
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/3).

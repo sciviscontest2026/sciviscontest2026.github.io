@@ -1,0 +1,51 @@
+---
+layout: default
+title: Home
+permalink: /home/
+sectionid: home
+
+---
+
+<div class="header-container jumbotron">
+    <div class="container">
+        <h1>IEEE 2026 SciVis Contest</h1>
+        <p>We need to put some text here as slogan...</p>
+        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | relative_url }}" role="button">Learn more</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="header-light regular-pad">What is data?</h2>
+              <p class="lead">Data description, big data from <strong>NASA</strong>, oceanic and atmospheric bla bla bla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-6 text-center">
+            <center>
+            <img src="{{ "/assets/img/sciviscontest-badge.png" | relative_url }}" alt="SciVis contest logo" class="img-responsive">
+            </center>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Easy to install and publish</h3>
+            <p>Get started by cloning source into GitHub account of your project. Thanks to <a href="https://pages.github.com">GitHub Pages</a>,
+              it will be automatically compiled and published under your account's (or organisation's) subdomain under <code>github.io</code>.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Modular Styling and Templating</h3>
+            <p>This template uses <a href="https://github.com/twbs/bootstrap-sass">bootstrap-sass</a> along with <a href="https://bootswatch.com/">Bootwatch themes</a>.
+            You can change the theme or write your custom one by overwriting bootstrap sass variables for a different color set, font options, etc.</p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Git-based source control</h3>
+            <p>Leverage from Git version control system by
+              maintaining your documentation along with the source code; publish the page when you merge to the master branch.</p>
+        </div>
+    </div>
+</div>
