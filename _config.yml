@@ -1,8 +1,7 @@
 # Site settings
 title: SciVis Contest 2026
 email: aashishpanta0@gmail.com
-description: >
-SciVis Data Challenge 2026
+description: "SciVis Data Challenge 2026"
 lang: en-US
 
 baseurl: "/sciviscontest2026 " # the subpath of your site, e.g. /blog/
