@@ -5,7 +5,7 @@ description: >
 SciVis Data Challenge 2026
 lang: en-US
 
-baseurl: "https://sci-visus.github.io/sciviscontest2026/" # the subpath of your site, e.g. /blog/
+baseurl: " " # the subpath of your site, e.g. /blog/
 url: https://sci-visus.github.io/sciviscontest2026/ # the base hostname & protocol for your site
 git_address: https://github.com/sci-visus/sciviscontest2026
 git_edit_address: https://sci-visus.github.io/sciviscontest2026/
