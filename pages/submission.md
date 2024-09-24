@@ -6,73 +6,56 @@ sectionid: submission
 ---
 
 <div class="container">
-    <h1>Data Submission</h1>
-    <p>Submit your results and models below. Make sure your submission follows the format outlined in the contest guidelines.</p>
+    <!-- <h1>Submission</h1> -->
+    <h2>Submission Instruction</h2>
+    <p>Your submission should include:</p>
+    <ul>
+        <li>A 2-page PDF describing your visualization and analysis techniques. Focus on the techniques you used and results you obtained. Do not waste space on background information or data descriptions. Please follow the formatting guidelines for the manuscript. (<a href="https://www.github.com">Download LaTeX and Word templates</a>).</li>
+        <li>Images which explain how your visualizations help answer the questions. The images should be appended to the 2-page document (your whole PDF document should be more than 2 pages). The PDF document should be no bigger than 50 MB in size.</li>
+        <li>An MPEG, AVI, or Quicktime video (maximum 10 minutes) showing the system, methods, or processes in action. This will be most helpful for demonstrating the effectiveness of your approach.</li>
+    </ul>
 
-    <form action="http://sci-visus.github.io/sciviscontest2026" method="post" enctype="multipart/form-data" class="submission-form">
-        <div class="form-group">
-            <label for="teamname">Team Name:</label>
-            <input type="text" id="teamname" name="teamname" class="form-control" placeholder="Enter your team name" required>
-        </div>
+    <h3>To Submit:</h3>
+    <ol>
+        <li>Go to <a href="https://new.precisionconference.com">https://new.precisionconference.com</a></li>
+        <li>Sign in or create a new account</li>
+        <li>Go to the <strong>Submissions</strong> tab at the top</li>
+        <li>Under <strong>Make a new submission</strong>, select <strong>VGTC</strong> as Society, <strong>VIS 2026</strong> as Conference/Journal, and <strong>VIS 2026 SciVis Contest</strong> as Track, as shown in this screenshot:</li>
+        <li>Edit the submission with your data and record the changes.</li>
+    </ol>
+    <!-- <img src="{{ "/assets/img/submission-screenshot.png" | relative_url }}" alt="Submission Selection Screenshot" class="img-responsive"> -->
+    
+    <h2>Important Dates</h2>
+    <p>We will be following a process similar to previous years. There might be slight changes, but the current plan is as follows:</p>
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Event</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>October 23, 2025</td>
+                <td>Official announcement of the 2026 IEEE SciVis Contest at IEEE VIS 2025.</td>
+            </tr>
+            <tr>
+                <td>July 31, 2026 - August 7, 2026</td>
+                <td>Submission Deadline.</td>
+            </tr>
+            <tr>
+                <td>Approx. September, 2026</td>
+                <td>Winner notification.</td>
+            </tr>
+            <tr>
+                <td>Approx. October, 2026</td>
+                <td>Official announcement of the end results at IEEE VIS 2026.</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>Deadlines are set as 23:59 AOE.</strong></p>
 
-        <div class="form-group">
-            <label for="task">Select Task:</label>
-            <select id="task" name="task" class="form-control" required>
-                <option value="" disabled selected>Select a task</option>
-                <option value="1">Task 1: Predicting Ocean Currents</option>
-                <option value="2">Task 2: Storm Prediction</option>
-                <option value="3">Task 3: Climate Change Impact Analysis</option>
-            </select>
-        </div>
-
-        <!-- Team Members -->
-        <div class="form-group">
-            <label for="members">Team Members:</label>
-            <div id="team-members">
-                <div class="team-member" id="member1">
-                    <input type="text" name="member1" class="form-control" placeholder="Team Member 1" required>
-                    <button type="button" class="btn remove-member-btn" onclick="removeMember(1)">Remove</button>
-                </div>
-            </div>
-            <button type="button" id="add-member" class="btn btn-secondary">+ Add Member</button>
-        </div>
-
-        <div class="form-group">
-            <label for="submission">Upload your file:</label>
-            <input type="file" id="submission" name="submission" class="form-control file-input" required>
-        </div>
-
-        <div class="form-group text-center">
-            <input type="submit" value="Submit" class="btn btn-primary">
-        </div>
-    </form>
+    <h2>Judges</h2>
+    <p>Judges for the contest will be announced soon.</p>
 </div>
-
-<script>
-let memberCount = 1;
-
-document.getElementById('add-member').addEventListener('click', function() {
-    if (memberCount < 6) {
-        memberCount++;
-        let newMemberField = document.createElement('div');
-        newMemberField.classList.add('team-member');
-        newMemberField.setAttribute('id', `member${memberCount}`);
-        newMemberField.innerHTML = `
-            <input type="text" name="member${memberCount}" class="form-control" placeholder="Team Member ${memberCount}" required>
-            <button type="button" class="btn remove-member-btn" onclick="removeMember(${memberCount})">Remove</button>`;
-        document.getElementById('team-members').appendChild(newMemberField);
-    }
-
-    if (memberCount === 6) {
-        document.getElementById('add-member').style.display = 'none';
-    }
-});
-
-function removeMember(id) {
-    if (memberCount > 1) {
-        document.getElementById(`member${id}`).remove();
-        memberCount--;
-        document.getElementById('add-member').style.display = 'inline-block'; 
-    }
-}
-</script>

@@ -8,7 +8,7 @@ sectionid: data
 
 <div class="container">
     <h1>Data for 2026 Data Challenge</h1>
-    <p>Welcome to the data page for the 2026 Data Challenge. Select a dataset to view the details:</p>
+    <p>Select a dataset to view the details:</p>
 
     <div class="row">
         <!-- Sidebar Column -->
@@ -26,21 +26,22 @@ sectionid: data
         <div class="col-md-9">
             <div id="data1" class="data-content">
                 <h2>ECCO LLC4320 Data</h2>
-                <p><strong>Description:</strong> High-resolution ocean data from the ECCO project.</p>
+                <p><strong>Description:</strong> The "Estimating the Circulation and Climate of the Ocean" (ECCO) consortium makes the best possible estimates of ocean circulation and its role in climate.</p>
                 <ul>
                     <li>Time steps: 10,000+</li>
-                    <li>Variables: Sea surface height, temperature, salinity, etc.</li>
-                    <li>Resolution: ~1km</li>
+                    <li>Variables: Ocean current velocity, temperature, salinity, etc.</li>
+                    <li>Resolution: </li>
                 </ul>
                 <a href="#" class="btn btn-primary">Download ECCO LLC4320 Data</a>
             </div>
 
             <div id="data2" class="data-content" style="display:none;">
                 <h2>DYAMOND Data</h2>
-                <p><strong>Description:</strong> Global storm-resolving atmospheric simulation data.</p>
+                <p><strong>Description:</strong> DYnamics of the Atmospheric general circulation Modeled On Non-hydrostatic Domains (DYAMOND).</p>
                 <ul>
-                    <li>Variables: Wind speed, humidity, precipitation, etc.</li>
-                    <li>Models: ICON, NICAM, etc.</li>
+                    <li>Time steps: 10,000+</li>
+                    <li>Variables: Wind speed, Temperature, etc.</li>
+                    <li>Models: </li>
                 </ul>
                 <a href="#" class="btn btn-primary">Download DYAMOND Data</a>
             </div>
