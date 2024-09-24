@@ -32,7 +32,7 @@ sectionid: data
                     <li>Variables: Ocean current velocity, temperature, salinity, etc.</li>
                     <li>Resolution: </li>
                 </ul>
-                <a href="#" class="btn btn-primary">Download ECCO LLC4320 Data</a>
+                <a href="#" class="btn btn-primary">Access ECCO LLC4320 Data</a>
             </div>
 
             <div id="data2" class="data-content" style="display:none;">
@@ -43,7 +43,7 @@ sectionid: data
                     <li>Variables: Wind speed, Temperature, etc.</li>
                     <li>Models: </li>
                 </ul>
-                <a href="#" class="btn btn-primary">Download DYAMOND Data</a>
+                <a href="#" class="btn btn-primary">Access DYAMOND Data</a>
             </div>
 
             <div id="data3" class="data-content" style="display:none;">
@@ -53,7 +53,7 @@ sectionid: data
                     <li>Variables: Temperature, precipitation, etc.</li>
                     <li>Time steps: 50,000+</li>
                 </ul>
-                <a href="#" class="btn btn-primary">Download NEX GDDP CMIP6 Data</a>
+                <a href="#" class="btn btn-primary">Access NEX GDDP CMIP6 Data</a>
             </div>
         </div>
     </div>

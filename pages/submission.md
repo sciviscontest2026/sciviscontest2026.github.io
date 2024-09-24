@@ -20,8 +20,8 @@ sectionid: submission
         <li>Go to <a href="https://new.precisionconference.com">https://new.precisionconference.com</a></li>
         <li>Sign in or create a new account</li>
         <li>Go to the <strong>Submissions</strong> tab at the top</li>
-        <li>Under <strong>Make a new submission</strong>, select <strong>VGTC</strong> as Society, <strong>VIS 2026</strong> as Conference/Journal, and <strong>VIS 2026 SciVis Contest</strong> as Track, as shown in this screenshot:</li>
-        <li>Edit the submission with your data and record the changes.</li>
+        <li>Under <strong>Make a new submission</strong>, select <strong>VGTC</strong> as Society, <strong>VIS 2026</strong> as Conference/Journal, and <strong>VIS 2026 SciVis Contest</strong> as Track, as shown in this screenshot: (NEED TO ADD once its available)</li>
+        <li>Edit the submission with your data and record the changes before the deadline.</li>
     </ol>
     <!-- <img src="{{ "/assets/img/submission-screenshot.png" | relative_url }}" alt="Submission Selection Screenshot" class="img-responsive"> -->
     
@@ -37,7 +37,7 @@ sectionid: submission
         </thead>
         <tbody>
             <tr>
-                <td>October 23, 2025</td>
+                <td>October 20, 2025</td>
                 <td>Official announcement of the 2026 IEEE SciVis Contest at IEEE VIS 2025.</td>
             </tr>
             <tr>

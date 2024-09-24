@@ -13,7 +13,7 @@ sectionid: examples
     <h2>Data Access</h2>
     <p>To access the data provided for the SciVis contest, you can use the following steps:</p>
     <ol>
-        <li>Go to the <a href="/data/">Data Page</a> where you will find links to datasets like <strong>NASA ECCO LLC4320</strong> and <strong>DYAMOND</strong>.</li>
+        <li>Go to the <a href="/sciviscontest2026/data/">Data Page</a> where you will find links to datasets like <strong>NASA ECCO LLC4320</strong> and <strong>DYAMOND</strong>.</li>
         <li>Use the provided download links to access specific datasets.</li>
         <li>Make sure to review the variable descriptions and time steps for each dataset, as they vary significantly in scale and detail.</li>
     </ol>
