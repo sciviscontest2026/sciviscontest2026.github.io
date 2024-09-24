@@ -17,8 +17,8 @@ sectionid: acknowledgements
                 <li class="hover-link" data-logo="nasa"><a href="https://www.nas.nasa.gov/hecc/" target="_blank">NASA ARC</a></li>
                 <li class="hover-link" data-logo="nasajpl"><a href="https://www.jpl.nasa.gov/" target="_blank">NASA JPL</a></li>
                 <li class="hover-link" data-logo="seal"><a href="https://sealstorage.io/" target="_blank">SEAL Storage</a></li>
-                <li class="hover-link" data-logo="osg"><a href="https://osg-htc.org/" target="_blank">OSG Consortium</a></li>
-                <li class="hover-link" data-logo="visoar"><a href="https://visoar.net/" target="_blank">ViSOAR</a></li>
+                <li class="hover-link" data-logo="osg"><a href="https://osg-htc.org/services/osdf.html" target="_blank">Open Science Data Federation (OSDF)</a></li>
+                <li class="hover-link" data-logo="visoar"><a href="https://www.visoar.com/" target="_blank">ViSOAR</a></li>
                 <li class="hover-link" data-logo="wired"><a href="https://resilience.utah.edu/" target="_blank">Wired Global Center</a></li>
                 <li class="hover-link" data-logo="nsf"><a href="https://www.nsf.gov/" target="_blank">National Science Foundation</a></li>
             </ul>
@@ -34,7 +34,7 @@ sectionid: acknowledgements
                 </div>
                 <div class="col-md-4 col-sm-6 text-center">
                     <a href="https://www.nas.nasa.gov/hecc/" target="_blank">
-                        <img id="nasa" src="{{ '/assets/img/nasa.png' | relative_url }}" alt="NASA" class="img-fluid logo-img">
+                        <img id="nasa" src="{{ '/assets/img/nasa.jpg' | relative_url }}" alt="NASA" class="img-fluid logo-img">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 text-center">
@@ -52,7 +52,7 @@ sectionid: acknowledgements
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 text-center">
-                    <a href="https://osg-htc.org/" target="_blank">
+                    <a href="https://osg-htc.org/services/osdf.html" target="_blank">
                         <img id="osg" src="{{ '/assets/img/OSG-logo.svg' | relative_url }}" alt="OSG Logo" class="img-fluid logo-img">
                     </a>
                 </div>
