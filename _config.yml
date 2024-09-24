@@ -4,10 +4,10 @@ email: aashishpanta0@gmail.com
 description: "SciVis Data Challenge 2026"
 lang: en-US
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://localhost:4000 # the base hostname & protocol for your site
-# git_address: https://github.com/sci-visus/sciviscontest2026
-# git_edit_address: https://sci-visus.github.io/sciviscontest2026/
+baseurl: "/sciviscontest2026" # the subpath of your site, e.g. /blog/
+url: https://sci-visus.github.io # the base hostname & protocol for your site
+git_address: https://github.com/sci-visus/sciviscontest2026
+git_edit_address: https://sci-visus.github.io/sciviscontest2026/
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
