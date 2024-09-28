@@ -20,6 +20,7 @@ sectionid: acknowledgements
                 <li class="hover-link" data-logo="osg"><a href="https://osg-htc.org/services/osdf.html" target="_blank">Open Science Data Federation (OSDF)</a></li>
                 <li class="hover-link" data-logo="visoar"><a href="https://www.visoar.com/" target="_blank">ViSOAR</a></li>
                 <li class="hover-link" data-logo="wired"><a href="https://resilience.utah.edu/" target="_blank">Wired Global Center</a></li>
+                <li class="hover-link" data-logo="osn"><a href="https://www.openstoragenetwork.org/" target="_blank">Open Storage Network</a></li>
                 <li class="hover-link" data-logo="nsf"><a href="https://www.nsf.gov/" target="_blank">National Science Foundation</a></li>
             </ul>
         </div>
@@ -63,6 +64,7 @@ sectionid: acknowledgements
                 </div>
 
             </div>
+            <div class="row">
                 <div class="col-md-4 col-sm-6 text-center">
                     <a href="https://resilience.utah.edu/" target="_blank">
                         <div class="logo-container wired-bg">
@@ -70,7 +72,12 @@ sectionid: acknowledgements
                         </div>
                     </a>
                 </div>
-            <div class="row">
+            
+                <div class="col-md-4 col-sm-6 text-center">
+                    <a href="https://www.openstoragenetwork.org/" target="_blank">
+                        <img id="osn" src="{{ '/assets/img/osn.jpg' | relative_url }}" alt="OSN" class="img-fluid logo-img">
+                    </a>
+                </div>
                 <div class="col-md-4 col-sm-6 text-center">
                     <a href="https://www.nsf.gov/" target="_blank">
                         <img id="nsf" src="{{ '/assets/img/nsf.webp' | relative_url }}" alt="NSF" class="img-fluid logo-img">
@@ -91,7 +98,7 @@ sectionid: acknowledgements
 }
 
 .logo-img:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
     filter: brightness(1.02);
 }
 
@@ -152,7 +159,7 @@ sectionid: acknowledgements
 /* Highlighting the logos when the corresponding name is hovered */
 .hovered {
     transform: scale(1.2);
-    filter: brightness(1.2);
+    filter: brightness(1.02);
 }
 
 </style>

@@ -28,20 +28,25 @@ sectionid: home
     </div>
     <hr>
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-md-3 col-sm-6">
             <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
             <h3 class="text-center">Easy to Participate</h3>
             <p>The SciVis contest is designed for accessibility, with clear guidelines and easy submission procedures. Whether you're an experienced researcher or a student, you can dive into the visualization tasks using the provided datasets. For guidance and support, explore the contest details available on this website.</p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-3 col-sm-6">
             <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
             <h3 class="text-center">Visualizing Complex Data</h3>
             <p>This year’s contest tasks involve visualizing multi-terabyte climate datasets. Participants will explore data from simulations like NASA’s ECCO LLC4320 and DYAMOND models, focusing on visualizing the impacts of extreme weather events, ocean currents, and climate change over time.</p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-3 col-sm-6">
             <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
             <h3 class="text-center">Leverage Open-Source Tools</h3>
             <p>Participants are encouraged to use open-source tools and packages like OpenVisus, Openvisuspy, Python, ParaView, and VTK for data analysis and visualization. The data is completely hosted in cloud, making it easier to run your visualizations from anywhere in the world.</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <h1 class="text-center"><i class="fa fa-dollar" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Win Exciting Cash Prizes!</h3>
+            <p>Submissions will be evaluated by the contest chairs, focusing on criteria such as usability, creativity, and innovation. The top entry will be awarded a $1000 cash prize, generously sponsored by <a href="https://www.visoar.com">ViSOAR</a>.</p>
         </div>
     </div>
     <hr>
