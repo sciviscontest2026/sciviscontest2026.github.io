@@ -105,22 +105,53 @@ dependencies:
             <!-- Data Access Section -->
             <div id="access-llc4320" class="section-content" style="display:none;">
                 <h2>Access LLC4320 ECCO Data</h2>
-                <pre><code class="language-python">
+                <p>Below are the steps based on the <a href="https://github.com/sci-visus/Openvisus-NASA-Dashboard/blob/main/OpenVisus_NASA.ipynb">GitHub instructions</a>:</p>
+                <ol>
+                    <ul><strong>Step 1: Importing Libraries</strong></ul>
+                    <pre><code class="language-bash">
+import numpy as np
+import matplotlib.pyplot as plt
 import OpenVisus as ov
+                    </code></pre>
 
-# Load the LLC4320 dataset
-db = ov.LoadDataset("path/to/llc4320/dataset") # WAITING FOR OSDF PERMANENT LOCATION
-print("LLC4320 Data loaded successfully!")
-                </code></pre>
-                <p>FIX: PUT OSDF LINK</p>
+                    <ul><strong>Step 2: Define the field you want to access</strong></ul>
+                    <pre><code class="language-python">
+#available options=[salt, theta, u, v, w]; choose one below
+variable = 'theta'
+</code></pre>
+<ul><strong>Step 3: Load the IDX metadata:</strong>
+In this section, you can select any variables that you can declared in the cells above and replace it inside LoadDataset. We are just reading the metadata for the dataset here. <strong>PUT PERMANENT OSDF LINK... ALSO GENERATE PUBLIC KEYS FOR READ ACCESS</strong> </ul>
+<pre><code class="language-bash">
+# Step 3: Load the 4320 dataset from OSDF
+field= f"https://s3.nsdf.chtc.io/nasa-ecco/llc4320/idx/{variable}/{variable}_llc4320_x_y_depth.idx?access_key=any&secret_key=any&endpoint_url=https://s3.nsdf.chtc.io"
+
+db=ov.LoadDataset(field)
+print(f'Dimensions: {db.getLogicBox()[1][0]}*{db.getLogicBox()[1][1]}*{db.getLogicBox()[1][2]}')
+print(f'Total Timesteps: {len(db.getTimesteps())}')
+print(f'Field: {db.getField().name}')
+print('Data Type: float32')
+                    </code></pre>
+
+                    <ul><strong>Step 4: Read Data (Since the data is very large, I am only extracting one level. Check <a href="../data/home"> data descriptions </a> for more details.) </strong></ul>
+                    <pre><code class="language-python">
+# This section shows you how to load the data you want. You can select any timestep, region (x,y,z) you want. You can set the quality or resolution of the data as well. Higher quality means the finer(more) data. Not setting any time means first timestep available. Not setting quality means full data which  takes a while to load because of the higher filesize.
+
+# here you can select the resoution at which you query the data: -15 is very coarse, 0 is full resoltuon (dangerous since you may fetch a lot of data and wait a long time).
+
+data_resolution = -9 # try values among -15, -12, -9, -6, -3, 0
+data3D=db.read(time=0,quality=data_resolution, z=[0,1])  # Since the data is very large, I am only extracting one level.
+print(data3D.shape)
+print(np.min(data3D),np.max(data3D))
+                    </code></pre>
+                </ol>
             </div>
 
             <!-- Access DYAMOND Data Section -->
             <div id="access-dyamond" class="section-content" style="display:none;">
-                <h2>Access DYAMOND Data (Atmospheric - GEOS and Oceanic - LLC2160)</h2>
+                <h2>2. Access DYAMOND Data (Atmospheric - GEOS and Oceanic - LLC2160)</h2>
                 <p>You can follow these steps to access the DYAMOND atmospheric (GEOS) and oceanic (LLC2160) data. You can find individual data description and fields description in the <a href="../data/home"> Data Section</a></p>
 
-<h3>Access DYAMOND Atmospheric Data (GEOS)</h3>
+<h3>2.1 Access DYAMOND Atmospheric Data (GEOS)</h3>
 <p>Below are the steps to access the DYAMOND Atmospheric (GEOS) data:</p>
 
 <ol>
@@ -165,7 +196,7 @@ print(np.min(data3D), np.max(data3D))
 </ol>
 
 
-                <h3>Access DYAMOND Oceanic Data (LLC2160)</h3>
+                <h3>2.2 Access DYAMOND Oceanic Data (LLC2160)</h3>
                 <p>Below are the steps based on the <a href="https://github.com/sci-visus/Openvisus-NASA-Dashboard/blob/main/OpenVisus_NASA.ipynb">GitHub instructions</a>:</p>
                 <ol>
                     <ul><strong>Step 1: Importing Libraries</strong></ul>
