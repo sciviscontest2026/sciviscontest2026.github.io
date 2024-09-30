@@ -46,7 +46,7 @@ sectionid: home
         <div class="col-md-3 col-sm-6">
             <h1 class="text-center"><i class="fa fa-dollar" aria-hidden="true"></i></h1>
             <h3 class="text-center">Win Exciting Cash Prizes!</h3>
-            <p>Submissions will be evaluated by the contest chairs, focusing on criteria such as usability, creativity, and innovation. The top entry will be awarded a $1000 cash prize, generously sponsored by <a href="https://www.visoar.com">ViSOAR</a>.</p>
+            <p>Submissions will be evaluated by the contest chairs, focusing on criteria such as usability, creativity, and innovation. The top entry will be awarded a $1000 cash prize, generously sponsored by <a href="https://www.visoar.com"  target="_blank">ViSOAR</a>.</p>
         </div>
     </div>
     <hr>

@@ -407,22 +407,108 @@ sectionid: data
         </div>
 
 
-            <!-- NEX GDDP CMIP6 Data -->
-            <div id="data3" class="data-content" style="display:none;">
-                <h2>NEX GDDP CMIP6 Data</h2>
-                <p><strong>Overview:</strong> The NEX GDDP CMIP6 dataset provides high-resolution climate projections based on the CMIP6 models.</p>
-                <h3>Significance</h3>
-                <p>This dataset is critical for understanding future climate scenarios, aiding in climate impact assessments, adaptation, and mitigation strategies.</p>
-                <h3>Data</h3>
-                <ul>
-                    <li><strong>Variables:</strong> Temperature (°C), precipitation (mm/day), etc.</li>
-                    <li><strong>Time steps:</strong> 50,000+</li>
-                    <li><strong>Resolution:</strong> 0.25° x 0.25° grid (~25 km)</li>
-                    <li><strong>How to Access:</strong> Access via <a href="#">NEX GDDP CMIP6 Data Portal</a></li>
-                </ul>
-                <h3>Jupyter Notebook</h3>
-                <p>Use the <a href="#">NEX GDDP CMIP6 Jupyter Notebook</a> for climate projections analysis and visualization.</p>
-            </div>
+<!-- NEX GDDP CMIP6 Data -->
+<div id="data3" class="data-content" style="display:none;">
+    <h2>NEX GDDP CMIP6 Data</h2>
+    <p><strong>Overview:</strong> The NEX-GDDP CMIP6 dataset consists of downscaled climate projections derived from the Coupled Model Intercomparison Project Phase 6 (CMIP6) and downscaled to a 0.25° x 0.25° grid (~25 km), providing finer spatial details suitable for regional climate impact studies. The dataset includes historical simulations (1950-2014) and future projections (2015-2100) based on different Shared Socioeconomic Pathways (SSPs), including SSP2-4.5, and SSP5-8.5, which represent different climate futures depending on societal responses to climate change.</p>
+
+    <h3>Significance</h3>
+    <p>The purpose of this dataset is to provide a set of global, high resolution, bias-corrected climate change projections that can be used to evaluate climate change impacts on processes that are sensitive to finer-scale climate gradients and the effects of local topography on climate conditions.</p>
+
+    <h3>Models</h3>
+    <p>The NEX-GDDP CMIP6 dataset integrates projections from multiple global climate models (GCMs) included in CMIP6, including models such as GFDL-ESM4, IPSL-CM6A-LR, and MRI-ESM2-0. These models represent a range of climate system behaviors and help provide a more robust assessment of future climate conditions.</p>
+
+    <h3>Data</h3>
+    <p><strong>Variables:</strong> The dataset includes key variables that capture changes in temperature, precipitation, and other climate phenomena. These variables are available for different time periods (historical and future projections) and under various SSPs.</p>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Field Name</th>
+                <th>Data Type</th>
+                <th>Unit</th>
+                <th>Standard Name</th>
+                <th>Shape</th>
+                <th>Dimensions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>tas</td>
+                <td>float32</td>
+                <td>K</td>
+                <td>Near-Surface Air Temperature</td>
+                <td>(600, 1440)</td>
+                <td>Latitude, Longitude</td>
+            </tr>
+            <tr>
+                <td>pr</td>
+                <td>float32</td>
+                <td>kg m-2 s-1</td>
+                <td>Precipitation</td>
+                <td>(600, 1440)</td>
+                <td>Latitude, Longitude</td>
+            </tr>
+            <tr>
+                <td>rsds</td>
+                <td>float32</td>
+                <td>W/m²</td>
+                <td>Surface Downwelling Shortwave Radiation</td>
+                <td>(600, 1440)</td>
+                <td>Latitude, Longitude</td>
+            </tr>
+            <tr>
+                <td>hurs</td>
+                <td>float32</td>
+                <td>%</td>
+                <td>Near-Surface Relative Humidity</td>
+                <td>(600, 1440)</td>
+                <td>Latitude, Longitude</td>
+            </tr>
+            <tr>
+                <td>rlds</td>
+                <td>float32</td>
+                <td>W/m²</td>
+                <td>Surface Downwelling Longwave Radiation</td>
+                <td>(600, 1440)</td>
+                <td>Latitude, Longitude</td>
+            </tr>
+                <tr>
+                <td>sfcWind</td>
+                <td>float32</td>
+                <td>m s-1</td>
+                <td>Daily-Mean Near-Surface Wind Speed</td>
+                <td>(600, 1440)</td>
+                <td>Latitude, Longitude</td>
+            </tr>
+            <tr>
+                <td>tasmin</td>
+                <td>float32</td>
+                <td>K</td>
+                <td>Daily Minimum Near-Surface Air Temperature</td>
+                <td>(600, 1440)</td>
+                <td>Latitude, Longitude</td>
+            </tr>
+            <tr>
+                <td>tasmax</td>
+                <td>float32</td>
+                <td>K</td>
+                <td>Daily Maximum Near-Surface Air Temperature</td>
+                <td>(600, 1440)</td>
+                <td>Latitude, Longitude</td>
+            </tr>
+        </tbody>
+    </table>
+    <p> Currently Available Models: ACCESS-CM2, CanESM5, CESM2, CMCC-CM2-SR5, EC-Earth3, GFDL-ESM4, INM-CM5-0, IPSL-CM6A-LR, MIROC6, MPI-ESM1-2-HR, and MRI-ESM2-0</p>
+    <p><strong>Resolution:</strong> 0.25° x 0.25° horizontal grid (~25 km)</p>
+    <p><strong>More information about the dataset can be found in </strong><a href="https://planetarycomputer.microsoft.com/dataset/nasa-nex-gddp-cmip6#overview"  target="_blank">Microsoft Planetary Computer.</a></p>
+
+    <h3>Dashboard</h3>
+    <p>Check out this  <a href="http://chpc3.nationalsciencedatafabric.org:12345/dashboards"  target="_blank">NEX GDDP CMIP6 Dashboard</a> we deployed for interactive exploration and visualization of the dataset.</p>
+    <h3>Jupyter Notebook</h3>
+    <p>Check out this  <a href="https://aashishp.quarto.pub/nex-gddp-cmip6/"  target="_blank">Quarto documentation</a> for more details on accessing the data.</p>
+    </div>
+
         </div>
     </div>
 </div>
