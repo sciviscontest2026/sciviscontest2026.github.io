@@ -105,7 +105,7 @@ dependencies:
             <!-- Data Access Section -->
             <div id="access-llc4320" class="section-content" style="display:none;">
                 <h2>Access LLC4320 ECCO Data</h2>
-                <p>Below are the steps based on the <a href="https://github.com/sci-visus/Openvisus-NASA-Dashboard/blob/main/OpenVisus_NASA.ipynb">GitHub instructions</a>:</p>
+                <p>Below are the steps based on the <a href="https://github.com/sci-visus/Openvisus-NASA-Dashboard/blob/main/OpenVisus_NASA.ipynb">GitHub instructions</a>. Check out this <a href=https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_dyamond_ocean-Copy1.ipynb"">Github Repo</a> for examples.</p>
                 <ol>
                     <ul><strong>Step 1: Importing Libraries</strong></ul>
                     <pre><code class="language-bash">
@@ -152,7 +152,7 @@ print(np.min(data3D),np.max(data3D))
                 <p>You can follow these steps to access the DYAMOND atmospheric (GEOS) and oceanic (LLC2160) data. You can find individual data description and fields description in the <a href="../data/home"> Data Section</a></p>
 
 <h3>2.1 Access DYAMOND Atmospheric Data (GEOS)</h3>
-<p>Below are the steps to access the DYAMOND Atmospheric (GEOS) data:</p>
+<p>Below are the steps to access the DYAMOND Atmospheric (GEOS) data. Check out this <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_dyamond_geos.ipynb">github repo</a> for more jupyter notebook examples.</p>
 
 <ol>
     <ul><strong>Step 1: Importing Libraries</strong></ul>
@@ -197,7 +197,7 @@ print(np.min(data3D), np.max(data3D))
 
 
                 <h3>2.2 Access DYAMOND Oceanic Data (LLC2160)</h3>
-                <p>Below are the steps based on the <a href="https://github.com/sci-visus/Openvisus-NASA-Dashboard/blob/main/OpenVisus_NASA.ipynb">GitHub instructions</a>:</p>
+                <p>Below are the steps based on the <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_llc4320.ipynb">GitHub instructions</a>:</p>
                 <ol>
                     <ul><strong>Step 1: Importing Libraries</strong></ul>
                     <pre><code class="language-bash">
@@ -252,7 +252,8 @@ print(np.min(data3D),np.max(data3D))
     </ul>
 
     <h3 id="notebook-code">3.1 Notebook Code</h3>
-    <p>Below is a sample Jupyter notebook to load one timestep of a selected variable and display it using matplotlib.</p>
+    <p>Below is a sample Jupyter notebook to load one timestep of a selected variable and display it using matplotlib.
+    Use this <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_cmip6.ipynb"> github example </a> as a reference.</p>
 
     <pre><code class="language-python">
 # import libraries
