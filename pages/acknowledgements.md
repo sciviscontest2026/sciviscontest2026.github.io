@@ -20,7 +20,7 @@ sectionid: acknowledgements
                 <li class="hover-link" data-logo="osg"><a href="https://osg-htc.org/services/osdf.html" target="_blank">Open Science Data Federation (OSDF)</a></li>
                 <li class="hover-link" data-logo="visoar"><a href="https://www.visoar.com/" target="_blank">ViSOAR</a></li>
                 <li class="hover-link" data-logo="wired"><a href="https://resilience.utah.edu/" target="_blank">Wired Global Center</a></li>
-                <li class="hover-link" data-logo="osn"><a href="https://www.openstoragenetwork.org/" target="_blank">Open Storage Network</a></li>
+                <li class="hover-link" data-logo="pelican"><a href="https://pelicanplatform.org/" target="_blank">Pelican Platform</a></li>
                 <li class="hover-link" data-logo="nsf"><a href="https://www.nsf.gov/" target="_blank">National Science Foundation</a></li>
             </ul>
         </div>
@@ -74,8 +74,8 @@ sectionid: acknowledgements
                 </div>
             
                 <div class="col-md-4 col-sm-6 text-center">
-                    <a href="https://www.openstoragenetwork.org/" target="_blank">
-                        <img id="osn" src="{{ '/assets/img/osn.jpg' | relative_url }}" alt="OSN" class="img-fluid logo-img">
+                    <a href="https://pelicanplatform.org/" target="_blank">
+                        <img id="pelican" src="{{ '/assets/img/PelicanPlatformLogo.png' | relative_url }}" alt="Pelican Platform" class="img-fluid logo-img">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 text-center">

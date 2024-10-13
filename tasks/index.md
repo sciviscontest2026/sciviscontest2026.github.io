@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: Tasks
 permalink: /tasks/home
 redirect_from: /tasks/index.html
 sectionid: tasks
