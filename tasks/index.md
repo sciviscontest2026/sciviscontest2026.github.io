@@ -19,7 +19,7 @@ sectionid: tasks
                     <a class="nav-link" href="#task1" onclick="showTask('task1')">Task 1: Wind Patterns</a>
                     <a class="nav-link" href="#task2" onclick="showTask('task2')">Task 2: Extreme Weather Events</a>
                     <a class="nav-link" href="#task3" onclick="showTask('task3')">Task 3: 3D Ocean Circulation</a>
-                    <a class="nav-link" href="#task4" onclick="showTask('task4')">Task 4: Open Exploration</a>
+                    <a class="nav-link" href="#task4" onclick="showTask('task4')">Task 4: Open Exploration </a>
                 </nav>
             </div>
         </div>
