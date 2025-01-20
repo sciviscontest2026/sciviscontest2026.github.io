@@ -189,9 +189,9 @@ sectionid: data
                 </tbody>
             </table>
             <p><strong>Resolution:</strong> 1/48° horizontal grid (~2 km), 90 vertical levels</p>
-            <p><strong>How to Access:</strong> Access via <a href="#">ECCO Data Portal</a></p>
+            <p><strong>How to Access:</strong> Access via <a href="https://github.com/aashishpanta0/IEEE_SciVis_Notebooks_Examples/blob/main/ieee_scivis_llc4320.ipynb">Notebook</a> or try out <a href='{{ site.baseurl }}/examples/'>Examples</a> Tab.</p>
             <h3>Jupyter Notebook</h3>
-            <p>Use the <a href="#">ECCO LLC4320 Jupyter Notebook</a> for interactive exploration and analysis of the dataset.</p>
+            <p>Use the <a href="https://github.com/aashishpanta0/IEEE_SciVis_Notebooks_Examples/blob/main/ieee_scivis_llc4320.ipynb">ECCO LLC4320 Jupyter Notebook</a> for interactive exploration and analysis of the dataset.</p>
         </div>
 
         <div id="data2" class="data-content" style="display:none;">
@@ -401,7 +401,7 @@ sectionid: data
                 </tbody>
             </table>
             <p><strong>Resolution:</strong> 1/24° horizontal grid (~4 km), 90 vertical levels</p>
-            <p><strong>How to Access:</strong> Access via <a href="https://github.com/aashishpanta0/IEEE_SciVis_Notebooks_Examples">Notebooks</a> or see <a href='{{ site.baseurl }}/examples/'>Examples<a> Tab.</p>
+            <p><strong>How to Access:</strong> Access via <a href="https://github.com/aashishpanta0/IEEE_SciVis_Notebooks_Examples">Notebooks</a> or see <a href='{{ site.baseurl }}/examples/'>Examples</a> Tab.</p>
             <h3>Jupyter Notebook</h3>
             <p>Use the <a href="https://github.com/aashishpanta0/IEEE_SciVis_Notebooks_Examples/blob/main/ieee_scivis_dyamond_ocean-Copy1.ipynb">DYAMOND Jupyter Notebook</a> for interactive exploration and analysis of the dataset.</p>
         </div>
