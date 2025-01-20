@@ -116,14 +116,14 @@ import OpenVisus as ov
 
                     <ul><strong>Step 2: Define the field you want to access</strong></ul>
                     <pre><code class="language-python">
-#available options=[salt, theta, u, v, w]; choose one below
-variable = 'theta'
+#available options=[salt, theta, u, v, w]; choose one below.. lets say, we select w for now 
+variable = 'w'
 </code></pre>
 <ul><strong>Step 3: Load the IDX metadata:</strong>
 In this section, you can select any variables that you can declared in the cells above and replace it inside LoadDataset. We are just reading the metadata for the dataset here. <strong>PUT PERMANENT OSDF LINK... ALSO GENERATE PUBLIC KEYS FOR READ ACCESS</strong> </ul>
 <pre><code class="language-bash">
-# Step 3: Load the 4320 dataset from OSDF
-field= f"https://s3.nsdf.chtc.io/nasa-ecco/llc4320/idx/{variable}/{variable}_llc4320_x_y_depth.idx?access_key=any&secret_key=any&endpoint_url=https://s3.nsdf.chtc.io"
+# Step 3: Load the 4320 dataset from OSDF.. if  salt or theta is selected above, change climate2 to climate1 below
+field= f"pelican://osg-htc.org/nasa/nsdf/climate2/llc4320/idx/w/w_llc4320_x_y_depth.idx"
 
 db=ov.LoadDataset(field)
 print(f'Dimensions: {db.getLogicBox()[1][0]}*{db.getLogicBox()[1][1]}*{db.getLogicBox()[1][2]}')

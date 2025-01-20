@@ -401,9 +401,9 @@ sectionid: data
                 </tbody>
             </table>
             <p><strong>Resolution:</strong> 1/24° horizontal grid (~4 km), 90 vertical levels</p>
-            <p><strong>How to Access:</strong> Access via <a href="#">DYAMOND Data Portal</a></p>
+            <p><strong>How to Access:</strong> Access via <a href="https://github.com/aashishpanta0/IEEE_SciVis_Notebooks_Examples">Notebooks</a> or see <a href='{{ site.baseurl }}/examples/'>Examples<a> Tab.</p>
             <h3>Jupyter Notebook</h3>
-            <p>Use the <a href="#">DYAMOND Jupyter Notebook</a> for interactive exploration and analysis of the dataset.</p>
+            <p>Use the <a href="https://github.com/aashishpanta0/IEEE_SciVis_Notebooks_Examples/blob/main/ieee_scivis_dyamond_ocean-Copy1.ipynb">DYAMOND Jupyter Notebook</a> for interactive exploration and analysis of the dataset.</p>
         </div>
 
 
