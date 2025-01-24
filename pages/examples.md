@@ -44,12 +44,12 @@ source .venv/bin/activate
 <strong>Step 3:</strong> Install required libraries
 <pre><code class="language-bash">
 # Install required libraries
-python -m pip install --verbose --no-cache --no-warn-script-location boto3 colorcet fsspec numpy imageio pympler==1.0.1 urllib3 pillow xarray xmltodict plotly requests scikit-image scipy seaborn tifffile pandas tqdm matplotlib zarr altair cartopy dash fastparquet lxml numexpr scikit-learn sqlalchemy  xlrd yfinance pyarrow pydeck netcdf4 nexpy nexusformat nbgitpuller intake ipysheet ipywidgets bokeh ipywidgets-bokeh panel pyvista trame trame-vtk trame-vuetify notebook "jupyterlab==3.6.6" jupyter_bokeh jupyter-server-proxy jupyterlab-system-monitor "pyviz_comms>=2.0.0,<3.0.0" "jupyterlab-pygments>=0.2.0,<0.3.0" 
+python -m pip install --verbose --no-cache --no-warn-script-location boto3 colorcet fsspec numpy imageio pympler==1.0.1 urllib3 pillow xarray xmltodict plotly requests scikit-image scipy seaborn tifffile pandas tqdm matplotlib zarr altair cartopy dash fastparquet lxml numexpr scikit-learn sqlalchemy  xlrd yfinance pyarrow pydeck netcdf4 nexpy nexusformat nbgitpuller intake ipysheet ipywidgets bokeh ipywidgets-bokeh panel pyvista trame trame-vtk trame-vuetify notebook "jupyterlab==3.6.6" jupyter_bokeh openvisuspy jupyter-server-proxy jupyterlab-system-monitor "pyviz_comms>=2.0.0,<3.0.0" "jupyterlab-pygments>=0.2.0,<0.3.0" 
 </code></pre>
 <strong>Step 4:</strong> Install OpenVisus
 <pre> <code class="language-bash">
-# Install OpenVisus
-python -m pip install OpenVisus
+# Install OpenVisus and Openvisuspy
+python -m pip install OpenVisus openvisuspy
  </code></pre>
 
                 <h3>Conda Environment File</h3>
@@ -89,6 +89,7 @@ dependencies:
   - ipysheet
   - ipywidgets
   - bokeh
+  - openvisuspy
   - ipywidgets-bokeh
   - panel
   - notebook
@@ -166,14 +167,14 @@ import OpenVisus as ov
     <p>Available options are: CO, CO2, DELP, DTHDT, DTHDTCN, FCLD, H, P, P_TAVG, QI, QL, QV, RI, RL, T, U, V, W. Set the variable based on your selection:</p>
     <pre><code class="language-python">
 # Example available options: CO, CO2, DELP, DTHDT, DTHDTCN, FCLD, H, P, P_TAVG, QI, QL, QV, RI, RL, T, U, V, W
-variable = 'CO'
+variable = 'u'
 face=0
     </code></pre>
 
     <ul><strong>Step 3: Load the IDX metadata</strong></ul>
     <p>This step allows you to read the metadata for the selected field. You can replace the variable in the URL to choose the data you want:</p>
     <pre><code class="language-python">
-field= f"https://maritime.sealstorage.io/api/v0/s3/utah/nasa/dyamond/GEOS/GEOS_{variable}/{variable}_face_{face}_depth_52_time_0_10269.idx?access_key=any&secret_key=any&endpoint_url=https://maritime.sealstorage.io/api/v0/s3&cached=arco"
+field= f"https://maritime.sealstorage.io/api/v0/s3/utah/nasa/dyamond/GEOS/GEOS_{variable.upper()}/{variable.lower()}_face_{face}_depth_52_time_0_10269.idx?access_key=any&secret_key=any&endpoint_url=https://maritime.sealstorage.io/api/v0/s3"
 
 db = ov.LoadDataset(field)
 print(f'Dimensions: {db.getLogicBox()[1][0]}*{db.getLogicBox()[1][1]}*{db.getLogicBox()[1][2]}')
