@@ -113,6 +113,7 @@ dependencies:
 import numpy as np
 import matplotlib.pyplot as plt
 import OpenVisus as ov
+import openvisuspy as ovp
                     </code></pre>
 
                     <ul><strong>Step 2: Define the field you want to access</strong></ul>
@@ -126,7 +127,7 @@ In this section, you can select any variables that you can declared in the cells
 # Step 3: Load the 4320 dataset from OSDF.. if  salt or theta is selected above, change climate2 to climate1 below
 field= f"pelican://osg-htc.org/nasa/nsdf/climate2/llc4320/idx/w/w_llc4320_x_y_depth.idx"
 
-db=ov.LoadDataset(field)
+db=ovp.LoadDataset(field)
 print(f'Dimensions: {db.getLogicBox()[1][0]}*{db.getLogicBox()[1][1]}*{db.getLogicBox()[1][2]}')
 print(f'Total Timesteps: {len(db.getTimesteps())}')
 print(f'Field: {db.getField().name}')
@@ -140,7 +141,7 @@ print('Data Type: float32')
 # here you can select the resoution at which you query the data: -15 is very coarse, 0 is full resoltuon (dangerous since you may fetch a lot of data and wait a long time).
 
 data_resolution = -9 # try values among -15, -12, -9, -6, -3, 0
-data3D=db.read(time=0,quality=data_resolution, z=[0,1])  # Since the data is very large, I am only extracting one level.
+data3D=db.db.read(time=0,quality=data_resolution, z=[0,1])  # Since the data is very large, I am only extracting one level.
 print(data3D.shape)
 print(np.min(data3D),np.max(data3D))
                     </code></pre>
@@ -205,6 +206,7 @@ print(np.min(data3D), np.max(data3D))
 import numpy as np
 import matplotlib.pyplot as plt
 import OpenVisus as ov
+import openvisuspy as ovp
                     </code></pre>
 
                     <ul><strong>Step 2: Define the field you want to access</strong></ul>
