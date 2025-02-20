@@ -22,21 +22,21 @@ sectionid: Archive
     <div class="presentation-card" style="flex: 1 1 300px; border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; cursor: pointer;">
       <h3>2024 IEEE Visualization Conference Tutorial</h3>
       <p>A part of this work was presented as a tutorial at the 2024 IEEE Visualization Conference.</p>
-      <p><small>Date: 2024</small></p>
+      <p><small>Date: Fall 2024</small></p>
     </div>
     
     <!-- Presentation Card 2: Utah State University Blanding -->
     <div class="presentation-card" style="flex: 1 1 300px; border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; cursor: pointer;">
       <h3>Utah State University Blanding</h3>
       <p>Presented in the GEOG 4780/6780 Spatial Analysis class with 25 students.</p>
-      <p><small>Date: 2024</small></p>
+      <p><small>Date: Spring 2024</small></p>
     </div>
     
     <!-- Presentation Card 3: Utah State University Main Campus -->
     <div class="presentation-card" style="flex: 1 1 300px; border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; cursor: pointer;">
-      <h3>Utah State University Main Campus</h3>
-      <p>Presented to the Introduction to Engineering class taught by Steve Petruzza.</p>
-      <p><small>Date: 2025</small></p>
+      <h3>Utah State University, Main Campus</h3>
+      <p>Presented to the CS5040/6040 Scientific Visualization for Data Science.</p>
+      <p><small>Date: Spring 2025</small></p>
     </div>
     
     <!-- Presentation Card 4: Upcoming University of Tennessee, Knoxville -->
