@@ -10,8 +10,7 @@ sectionid: Archive
   <h1 class="text-center">Slides</h1>
   <div class="presentation-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
     <div class="presentation-card" style="flex: 1 1 300px; border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; cursor: pointer;">
-      <h3>Slides</h3>
-      <p>Click below to view or download the presentation slide.</p>
+      <h4>Click below to view or download the presentation slide.</h4>
       <a href="https://docs.google.com/presentation/d/11f6MOVtZiWvxuep-g4EmcLdpYLZGPoGJ/edit?usp=sharing&ouid=118398266327633939661&rtpof=true&sd=true" target="_blank" class="btn btn-primary">View Slides</a>
     </div>
   </div>
@@ -61,4 +60,13 @@ sectionid: Archive
     </div>
     
   </div>
+
+  <h1 class="text-center">References</h1>
+  <div class="presentation-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+    <div class="presentation-card" style="flex: 1 1 300px; border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; cursor: pointer;">
+      <h4>Click below to view the related papers and projects.</h4>
+      <a href="{{ site.baseurl }}/references/"  class="btn btn-primary">References</a>
+    </div>
+  </div>
+
 </div>

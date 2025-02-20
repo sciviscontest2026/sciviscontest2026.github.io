@@ -7,7 +7,7 @@ sectionid: submission
 
 <div class="container">
     <!-- <h1>Submission</h1> -->
-    <h2>Submission Instruction</h2>
+    <h2>Submission Instructions (This will be updated once IEEE VIS makes the submission link public)</h2>
     <p>Your submission should include:</p>
     <ul>
         <li>A 2-page PDF describing your visualization and analysis techniques. Focus on the techniques you used and results you obtained. Do not waste space on background information or data descriptions. Please follow the formatting guidelines for the manuscript. (<a href="https://www.github.com">Download LaTeX and Word templates</a>).</li>
