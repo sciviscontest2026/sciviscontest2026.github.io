@@ -504,7 +504,7 @@ sectionid: data
     <p><strong>More information about the dataset can be found in </strong><a href="https://planetarycomputer.microsoft.com/dataset/nasa-nex-gddp-cmip6#overview"  target="_blank">Microsoft Planetary Computer.</a></p>
 
     <h3>Dashboard</h3>
-    <p>Check out this  <a href="http://chpc3.nationalsciencedatafabric.org:12345/dashboards"  target="_blank">NEX GDDP CMIP6 Dashboard</a> we deployed for interactive exploration and visualization of the dataset.</p>
+    <p>Check out this  <a href="https://chpc3.nationalsciencedatafabric.org:12345/dashboards"  target="_blank">NEX GDDP CMIP6 Dashboard</a> we deployed for interactive exploration and visualization of the dataset.</p>
     <h3>Jupyter Notebook</h3>
     <p>Check out this  <a href="https://aashishp.quarto.pub/nex-gddp-cmip6/"  target="_blank">Quarto documentation</a> for more details on accessing the data.</p>
     </div>

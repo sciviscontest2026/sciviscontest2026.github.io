@@ -60,7 +60,7 @@ sectionid: tasks
                 <!-- Dashboard Example -->
                 <div class="task-section">
                     <h3>Dashboard Example</h3>
-                    <p>Check out the dashboard for more details: <a href="http://chpc3.nationalsciencedatafabric.org:12346/dashboards" target="_blank">Dashboard</a></p>
+                    <p>Check out the dashboard for more details: <a href="https://chpc3.nationalsciencedatafabric.org:12347/dashboards" target="_blank">Dashboard</a></p>
                 </div>
             </div>
 
@@ -134,7 +134,7 @@ sectionid: tasks
                 <!-- Dashboard Example -->
                 <div class="task-section">
                     <h3>Dashboard Example</h3>
-                    <p>Sample use case: <a href="http://chpc3.nationalsciencedatafabric.org:11857/run" target="_blank">Use case</a></p>
+                    <p>Sample use case: <a href="https://chpc3.nationalsciencedatafabric.org:11857/run" target="_blank">Use case</a></p>
                 </div>
             </div>
 
