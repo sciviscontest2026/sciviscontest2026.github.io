@@ -1,6 +1,6 @@
 ---
 layout: default
-title: References
+title: Archive
 permalink: /archive/
 sectionid: Archive
 ---
