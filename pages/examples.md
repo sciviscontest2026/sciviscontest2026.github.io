@@ -51,7 +51,9 @@ python -m pip install --verbose --no-cache --no-warn-script-location boto3 color
 # Install OpenVisus and Openvisuspy
 python -m pip install OpenVisus openvisuspy
  </code></pre>
-
+<h3>Binder</h3>
+<p>You can use the following link to open the binder and try the notebooks. It might take a while if you are launching it for the first time</p>
+      <a href="https://mybinder.org/v2/gh/sci-visus/sciviscontest2026/binder" target="_blank" class="btn btn-primary">Launch Binder</a>
                 <h3>Conda Environment File</h3>
                 <p>For convenience, here is a conda environment file you can use to create the environment. Save it as a <code>environment.yml</code> file and create the environment using <code>conda env create -f environment.yml</code>.<br /> If you need more instructions on how to manage conda environments, please check the offical documentation <a href= "https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html"  target="_blank">here. </a></p>
                 <pre><code class="language-bash">
@@ -105,8 +107,11 @@ dependencies:
 
             <!-- Data Access Section -->
             <div id="access-llc4320" class="section-content" style="display:none;">
+            <h2>Binder</h2>
+<p>You can use the following link to open the binder and try the notebooks. It might take a while if you are launching it for the first time</p>
+      <a href="https://mybinder.org/v2/gh/sci-visus/sciviscontest2026/binder" target="_blank" class="btn btn-primary">Launch Binder</a>
                 <h2>Access LLC4320 ECCO Data</h2>
-                <p>Below are the steps based on the <a href="https://github.com/sci-visus/Openvisus-NASA-Dashboard/blob/main/OpenVisus_NASA.ipynb">GitHub instructions</a>. Check out this <a href=https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_dyamond_ocean-Copy1.ipynb"">Github Repo</a> for examples.</p>
+                <p>Below are the steps based on the <a href="https://github.com/sci-visus/Openvisus-NASA-Dashboard/blob/main/OpenVisus_NASA.ipynb">GitHub instructions</a>. Check out this <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_dyamond_ocean-Copy1.ipynb">Github Repo</a> for examples.</p>
                 <ol>
                     <ul><strong>Step 1: Importing Libraries</strong></ul>
                     <pre><code class="language-bash">
@@ -122,7 +127,7 @@ import openvisuspy as ovp
 variable = 'w'
 </code></pre>
 <ul><strong>Step 3: Load the IDX metadata:</strong>
-In this section, you can select any variables that you can declared in the cells above and replace it inside LoadDataset. We are just reading the metadata for the dataset here. <strong>PUT PERMANENT OSDF LINK... ALSO GENERATE PUBLIC KEYS FOR READ ACCESS</strong> </ul>
+In this section, you can select any variables that you can declared in the cells above and replace it inside LoadDataset. We are just reading the metadata for the dataset here. </ul>
 <pre><code class="language-bash">
 # Step 3: Load the 4320 dataset from OSDF.. if  salt or theta is selected above, change climate2 to climate1 below
 field= f"pelican://osg-htc.org/nasa/nsdf/climate2/llc4320/idx/w/w_llc4320_x_y_depth.idx"
@@ -154,6 +159,9 @@ print(np.min(data3D),np.max(data3D))
                 <p>You can follow these steps to access the DYAMOND atmospheric (GEOS) and oceanic (LLC2160) data. You can find individual data description and fields description in the <a href="../data/home"> Data Section</a></p>
 
 <h3>2.1 Access DYAMOND Atmospheric Data (GEOS)</h3>
+<h4>Binder</h4>
+<p>You can use the following link to open the binder and try the notebooks. It might take a while if you are launching it for the first time</p>
+      <a href="https://mybinder.org/v2/gh/sci-visus/sciviscontest2026/binder" target="_blank" class="btn btn-primary">Launch Binder</a>
 <p>Below are the steps to access the DYAMOND Atmospheric (GEOS) data. Check out this <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_dyamond_geos.ipynb">github repo</a> for more jupyter notebook examples.</p>
 
 <ol>
@@ -244,9 +252,11 @@ print(np.min(data3D),np.max(data3D))
             <!-- Access NEX GDDP CMIP6 Data Section -->
 <!-- Access NEX GDDP CMIP6 Data Section -->
 <div id="access-nex-gddp-cmip6" class="section-content" style="display:none;">
-    <h2>3. Access NEX GDDP CMIP6 Data</h2>
-    <p>We demonstrate how to load the data from the NEX-GDDP-CMIP6 dataset using OpenVisus and visualize it with matplotlib. Additionally, you can save the plotted data to a file. In just a few lines of Python code, you can generate a plot as shown in Figure 3.1.</p>
 
+    <h3>3. Access NEX GDDP CMIP6 Data</h3>
+    <p>We demonstrate how to load the data from the NEX-GDDP-CMIP6 dataset using OpenVisus and visualize it with matplotlib. Additionally, you can save the plotted data to a file. In just a few lines of Python code, you can generate a plot as shown in Figure 3.1. Feel feel to try it from binder or quarto(link at the bottom). You can use the following below to open the binder and try the notebooks. It might take a while if you are launching it for the first time</p>
+
+      <a href="https://mybinder.org/v2/gh/sci-visus/sciviscontest2026/binder" target="_blank" class="btn btn-primary">Launch Binder</a>
     <h3>3.1 Table of Contents</h3>
     <ul>
         <li>3.1 <a href="#notebook-code">Notebook Code</a></li>
@@ -309,7 +319,7 @@ plt.show()
     <h4>Figure 3.1: Plot of NEX-GDDP-CMIP6 data (huss, ACCESS-CM2, ssp585)</h4>
 
     <h3 id="dashboard">Dashboard</h3>
-    <p>Check out this NEX GDDP CMIP6 <a href="http://chpc3.nationalsciencedatafabric.org:12345/dashboards"  target="_blank">Dashboard</a> we deployed for interactive exploration and visualization of the dataset. This dashboard allows users to select variables, timesteps, and generate visualizations interactively.</p>
+    <p>Check out this NEX GDDP CMIP6 <a href="https://chpc3.nationalsciencedatafabric.org:12345/dashboards"  target="_blank">Dashboard</a> we deployed for interactive exploration and visualization of the dataset. This dashboard allows users to select variables, timesteps, and generate visualizations interactively.</p>
 
     <h3 id="quarto">Quarto Documentation</h3>
     <p>Check out this  <a href="https://aashishp.quarto.pub/nex-gddp-cmip6/"  target="_blank">Quarto documentation</a> for more details on accessing the NEX-GDDP-CMIP6 data. The documentation includes step-by-step instructions for loading and visualizing climate model data using Python and OpenVisus.</p>

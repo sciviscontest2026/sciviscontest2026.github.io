@@ -17,8 +17,18 @@ cd jekyll-doc-theme
 # install dependencies
 bundle install
 
-# run jekyll with dependencies
+# to launch locally, set following vars:
+baseurl: "" # the subpath of your site, e.g. /blog/ap/
+url: "localhost:4000"  # the base hostname & protocol for your site
+
+# to push and run github action, do:
+baseurl: "/"
+url: https://sciviscontest2026.github.io 
+
+#launch website
 bundle exec jekyll serve
+
+
 ```
 
 ### Theme Assets
