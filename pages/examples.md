@@ -111,7 +111,7 @@ dependencies:
 <p>You can use the following link to open the binder and try the notebooks. It might take a while if you are launching it for the first time</p>
       <a href="https://mybinder.org/v2/gh/sci-visus/sciviscontest2026/binder" target="_blank" class="btn btn-primary">Launch Binder</a>
                 <h2>Access LLC4320 ECCO Data</h2>
-                <p>Below are the steps based on the <a href="https://github.com/sci-visus/Openvisus-NASA-Dashboard/blob/main/OpenVisus_NASA.ipynb">GitHub instructions</a>. Check out this <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_dyamond_ocean-Copy1.ipynb">Github Repo</a> for examples.</p>
+                <p>Below are the steps based on the <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples">GitHub instructions</a>. Check out this <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_llc4320.ipynb">Github Repo</a> for examples.</p>
                 <ol>
                     <ul><strong>Step 1: Importing Libraries</strong></ul>
                     <pre><code class="language-bash">
@@ -183,7 +183,7 @@ face=0
     <ul><strong>Step 3: Load the IDX metadata</strong></ul>
     <p>This step allows you to read the metadata for the selected field. You can replace the variable in the URL to choose the data you want:</p>
     <pre><code class="language-python">
-field= f"https://maritime.sealstorage.io/api/v0/s3/utah/nasa/dyamond/GEOS/GEOS_{variable.upper()}/{variable.lower()}_face_{face}_depth_52_time_0_10269.idx?access_key=any&secret_key=any&endpoint_url=https://maritime.sealstorage.io/api/v0/s3"
+field= f"https://nsdf-climate3-origin.nationalresearchplatform.org:50098/nasa/nsdf/climate3/dyamond/GEOS/GEOS_{variable.upper()}/{variable.lower()}_face_{face}_depth_52_time_0_10269.idx"
 
 db = ov.LoadDataset(field)
 print(f'Dimensions: {db.getLogicBox()[1][0]}*{db.getLogicBox()[1][1]}*{db.getLogicBox()[1][2]}')
@@ -207,7 +207,7 @@ print(np.min(data3D), np.max(data3D))
 
 
                 <h3>2.2 Access DYAMOND Oceanic Data (LLC2160)</h3>
-                <p>Below are the steps based on the <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_llc4320.ipynb">GitHub instructions</a>:</p>
+                <p>Below are the steps based on the <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_dyamond_ocean.ipynb">GitHub instructions</a>:</p>
                 <ol>
                     <ul><strong>Step 1: Importing Libraries</strong></ul>
                     <pre><code class="language-bash">
@@ -225,8 +225,19 @@ variable = 'salt'
 <ul><strong>Step 3: Load the IDX metadata:</strong>
 In this section, you can select any variables that you can declared in the cells above and replace it inside LoadDataset. We are just reading the metadata for the dataset here. </ul>
 <pre><code class="language-bash">
-# Step 3: Load the LLC2160 dataset from Sealstorage
-field= "https://maritime.sealstorage.io/api/v0/s3/utah/nasa/dyamond/mit_output/llc2160_arco/visus.idx?access_key=any&secret_key=any&endpoint_url=https://maritime.sealstorage.io/api/v0/s3&cached=arco" if variable=="salt" else  f"https://maritime.sealstorage.io/api/v0/s3/utah/nasa/dyamond/mit_output/llc2160_{variable}/{variable}_llc2160_x_y_depth.idx?access_key=any&secret_key=any&endpoint_url=https://maritime.sealstorage.io/api/v0/s3&cached=arco"
+# Step 3: Load the LLC2160 dataset from OSDF
+
+variable='salt' # options are: u,v,w,salt,theta
+
+base_url= "https://nsdf-climate3-origin.nationalresearchplatform.org:50098/nasa/nsdf/climate3/dyamond/"
+if variable=="theta" or variable=="w":
+    base_dir=f"mit_output/llc2160_{variable}/llc2160_{variable}.idx"
+elif variable=="u":
+    base_dir= "mit_output/llc2160_arco/visus.idx"
+else:
+    base_dir=f"mit_output/llc2160_{variable}/{variable}_llc2160_x_y_depth.idx"
+
+field= base_url+base_dir
 
 db=ov.LoadDataset(field)
 print(f'Dimensions: {db.getLogicBox()[1][0]}*{db.getLogicBox()[1][1]}*{db.getLogicBox()[1][2]}')
@@ -319,7 +330,7 @@ plt.show()
     <h4>Figure 3.1: Plot of NEX-GDDP-CMIP6 data (huss, ACCESS-CM2, ssp585)</h4>
 
     <h3 id="dashboard">Dashboard</h3>
-    <p>Check out this NEX GDDP CMIP6 <a href="https://chpc3.nationalsciencedatafabric.org:12345/dashboards"  target="_blank">Dashboard</a> we deployed for interactive exploration and visualization of the dataset. This dashboard allows users to select variables, timesteps, and generate visualizations interactively.</p>
+    <p>Check out this NEX GDDP CMIP6 <a href="https://chpc3.nationalsciencedatafabric.org:12347/dashboards"  target="_blank">Dashboard</a> we deployed for interactive exploration and visualization of the dataset. This dashboard allows users to select variables, timesteps, and generate visualizations interactively.</p>
 
     <h3 id="quarto">Quarto Documentation</h3>
     <p>Check out this  <a href="https://aashishp.quarto.pub/nex-gddp-cmip6/"  target="_blank">Quarto documentation</a> for more details on accessing the NEX-GDDP-CMIP6 data. The documentation includes step-by-step instructions for loading and visualizing climate model data using Python and OpenVisus.</p>

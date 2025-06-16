@@ -401,9 +401,9 @@ sectionid: data
                 </tbody>
             </table>
             <p><strong>Resolution:</strong> 1/24° horizontal grid (~4 km), 90 vertical levels</p>
-            <p><strong>How to Access:</strong> Access via <a href="https://github.com/aashishpanta0/IEEE_SciVis_Notebooks_Examples">Notebooks</a> or see <a href='{{ site.baseurl }}/examples/'>Examples</a> Tab.</p>
+            <p><strong>How to Access:</strong> Access via <a href="https://github.com/sci-visus/sciviscontest2026/tree/main/notebooks_examples">Notebooks</a> or see <a href='{{ site.baseurl }}/examples/'>Examples</a> Tab.</p>
             <h3>Jupyter Notebook</h3>
-            <p>Use the <a href="https://github.com/aashishpanta0/IEEE_SciVis_Notebooks_Examples/blob/main/ieee_scivis_dyamond_ocean-Copy1.ipynb">DYAMOND Jupyter Notebook</a> for interactive exploration and analysis of the dataset.</p>
+            <p>Use the <a href="https://github.com/sci-visus/sciviscontest2026/blob/main/notebooks_examples/ieee_scivis_dyamond_ocean.ipynb">DYAMOND Jupyter Notebook</a> for interactive exploration and analysis of the dataset.</p>
         </div>
 
 
@@ -504,7 +504,7 @@ sectionid: data
     <p><strong>More information about the dataset can be found in </strong><a href="https://planetarycomputer.microsoft.com/dataset/nasa-nex-gddp-cmip6#overview"  target="_blank">Microsoft Planetary Computer.</a></p>
 
     <h3>Dashboard</h3>
-    <p>Check out this  <a href="https://chpc3.nationalsciencedatafabric.org:12345/dashboards"  target="_blank">NEX GDDP CMIP6 Dashboard</a> we deployed for interactive exploration and visualization of the dataset.</p>
+    <p>Check out this  <a href="https://chpc3.nationalsciencedatafabric.org:12347/dashboards"  target="_blank">NEX GDDP CMIP6 Dashboard</a> we deployed for interactive exploration and visualization of the dataset.</p>
     <h3>Jupyter Notebook</h3>
     <p>Check out this  <a href="https://aashishp.quarto.pub/nex-gddp-cmip6/"  target="_blank">Quarto documentation</a> for more details on accessing the data.</p>
     </div>
