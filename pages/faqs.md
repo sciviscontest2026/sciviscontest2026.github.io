@@ -8,7 +8,7 @@ sectionid: faqs
 <div class="container">
 
     <!-- <h1>Frequently Asked Questions</h1> -->
-    <h2>General Questions</h2>
+    <h3>General Questions</h3>
 
     <h4>💡 Is there a registration fee to participate?</h4>
     <p>No, submission to the 2026 IEEE SciVis Contest is <strong>completely free</strong>. You do <strong>not</strong> need to pay or register to submit for this competition. All you need to do is use the provided data and create insightful or creative visualizations.</p>
@@ -28,8 +28,6 @@ sectionid: faqs
     </ul>
     <p>We’ll provide updates as soon as the IEEE VIS team opens the submission portal.</p>
 
-    <h2>How to Join</h2>
-
     <h4>📝 What is the process to join the challenge?</h4>
     <p>There is <strong>no registration form</strong> required to join. Simply follow these steps:</p>
     <ol>
@@ -40,7 +38,16 @@ sectionid: faqs
     </ol>
     <p>More details on the submission process will be shared soon!</p>
 
-    <h2>Contact</h2>
-    <p>If you have additional questions, feel free to <a href="mailto:aashishpanta0@gmail.com">contact us via email</a> or fill out <a href="https://forms.gle/rpXytCrqNBCB7LZQ6">this form</a>. We look forward to seeing your submission!</p>
+    <h4>Contact</h4>
+    <div style="margin-top:32px;">
+        <h4>📬 Interested in Participating?</h4>
+        <p>If you have questions or would like to connect directly, contact:</p>
+        <ul style="margin-bottom:16px;">
+            <li><strong>Aashish Panta</strong>: <a href="mailto:aashishpanta0@gmail.com">aashishpanta0@gmail.com</a></li>
+            <li><strong>Giorgio Scorzelli</strong>: <a href="mailto:scrgiorgio@gmail.com">scrgiorgio@gmail.com</a></li>
+        </ul>
+        <p>Or, if you prefer, fill out the form below to express your interest or ask questions. We'll keep you updated and help with any inquiries.</p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePdqXxnqrAsUCAkVS2OfgkJ_aDZD61mYIBKGeS-RAK2olWdA/viewform?embedded=true" width="100%" height="1740" frameborder="0" marginheight="0" marginwidth="0" style="border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">Loading…</iframe>
+    </div>
 
 </div>
