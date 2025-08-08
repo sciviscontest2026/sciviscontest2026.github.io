@@ -6,7 +6,7 @@ sectionid: examples
 ---
 
 <div class="container">
-    <h1>Examples for Data Access and Visualization</h1>
+    <h2>Examples for Data Access and Visualization</h2>
 
     <div class="row">
         <!-- Sidebar Column -->
@@ -14,10 +14,11 @@ sectionid: examples
             <div class="sidebar-box">
                 <nav class="nav flex-column">
                     <a class="nav-link active" href="#prerequisites" onclick="showSection('prerequisites')">Prerequisites</a>
+                    <a class="nav-link" href="#pythia-cookbook" onclick="showSection('pythia-cookbook')">Pythia OpenVisus Cookbook</a>
                     <a class="nav-link" href="#access-llc4320" onclick="showSection('access-llc4320')">Access LLC4320 ECCO Data</a>
                     <a class="nav-link" href="#access-dyamond" onclick="showSection('access-dyamond')">Access DYAMOND Data</a>
                     <a class="nav-link" href="#access-nex-gddp-cmip6" onclick="showSection('access-nex-gddp-cmip6')">Access NEX GDDP CMIP6 Data</a>
-                    <a class="nav-link" href="#visualization" onclick="showSection('visualization')">Visualization</a>
+
                 </nav>
             </div>
         </div>
@@ -29,80 +30,31 @@ sectionid: examples
                 <h2>Prerequisites</h2>
                 <p>To provide progressive streaming capability for large datasets, the data has been converted to <a href="https://github.com/sci-visus/OpenVisus"  target="_blank">OpenVisus IDX format</a>.</p>
 
-                <p>Users can create a new Python environment and install the required libraries with the following steps:</p>
-                <strong>Step 1:</strong> Create a new virtual enviroment using python
-                <pre>
-<code class="language-bash">
-# Create a python virtual environment
-python -m venv .venv
-</code></pre>
-<strong>Step 2:</strong> Activate the environment you just created
-<pre><code class="language-bash">
-# Activate the environment
-source .venv/bin/activate
-</code></pre>
-<strong>Step 3:</strong> Install required libraries
-<pre><code class="language-bash">
-# Install required libraries
-python -m pip install --verbose --no-cache --no-warn-script-location boto3 colorcet fsspec numpy imageio pympler==1.0.1 urllib3 pillow xarray xmltodict plotly requests scikit-image scipy seaborn tifffile pandas tqdm matplotlib zarr altair cartopy dash fastparquet lxml numexpr scikit-learn sqlalchemy  xlrd yfinance pyarrow pydeck netcdf4 nexpy nexusformat nbgitpuller intake ipysheet ipywidgets bokeh ipywidgets-bokeh panel pyvista trame trame-vtk trame-vuetify notebook "jupyterlab==3.6.6" jupyter_bokeh openvisuspy jupyter-server-proxy jupyterlab-system-monitor "pyviz_comms>=2.0.0,<3.0.0" "jupyterlab-pygments>=0.2.0,<0.3.0" 
-</code></pre>
-<strong>Step 4:</strong> Install OpenVisus
-<pre> <code class="language-bash">
-# Install OpenVisus and Openvisuspy
-python -m pip install OpenVisus openvisuspy
- </code></pre>
-<h3>Binder</h3>
-<p>You can use the following link to open the binder and try the notebooks. It might take a while if you are launching it for the first time</p>
-      <a href="https://mybinder.org/v2/gh/sci-visus/sciviscontest2026/binder" target="_blank" class="btn btn-primary">Launch Binder</a>
-                <h3>Conda Environment File</h3>
-                <p>For convenience, here is a conda environment file you can use to create the environment. Save it as a <code>environment.yml</code> file and create the environment using <code>conda env create -f environment.yml</code>.<br /> If you need more instructions on how to manage conda environments, please check the offical documentation <a href= "https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html"  target="_blank">here. </a></p>
-                <pre><code class="language-bash">
-# environment.yml file
-name: scivis2026
-channels:
-  - conda-forge
-dependencies:
-  - python=3.8
-  - boto3
-  - colorcet
-  - fsspec
-  - numpy
-  - imageio
-  - pympler=1.0.1
-  - urllib3
-  - pillow
-  - xarray
-  - xmltodict
-  - plotly
-  - requests
-  - scipy
-  - seaborn
-  - tifffile
-  - pandas
-  - matplotlib
-  - cartopy
-  - fastparquet
-  - lxml
-  - numexpr
-  - sqlalchemy
-  - statsmodels
-  - xlrd
-  - intake
-  - ipysheet
-  - ipywidgets
-  - bokeh
-  - openvisuspy
-  - ipywidgets-bokeh
-  - panel
-  - notebook
-  - jupyterlab=3.6.6
-  - jupyter_bokeh
-  - jupyter-server-proxy
-  - jupyterlab-system-monitor
-  - pyviz_comms>=2.0.0,<3.0.0
-  - jupyterlab-pygments>=0.2.0,<0.3.0
-  - OpenVisus
-                </code></pre>
+                <h3>Option 1: Using Conda</h3>
+                <p>Download the <code>environment.yml</code> file from the <a href="https://github.com/ProjectPythia/nsdf-openvisus-cookbook" target="_blank">Pythia OpenVisus Cookbook GitHub repository</a> and use <code>conda</code> to create your environment. This will install all required libraries for data access and visualization.</p>
+                <ol>
+                    <li><strong>Step 1:</strong> Download <code>environment.yml</code> from <a href="https://github.com/ProjectPythia/nsdf-openvisus-cookbook/blob/main/environment.yml" target="_blank">here</a>.</li>
+                    <li><strong>Step 2:</strong> Create the environment using conda:<br>
+                        <pre><code class="language-bash">conda env create -f environment.yml</code></pre>
+                    </li>
+                    <li><strong>Step 3:</strong> Activate the environment:<br>
+                        <pre><code class="language-bash">conda activate nsdf-cookbook</code></pre>
+                    </li>
+                </ol>
+                <p>For more instructions on managing conda environments, see the <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" target="_blank">official documentation</a>.</p>
+
+                <h3>Option 2: Using pip</h3>
+source .venv/bin/activate</code></pre>
+                <p>If you prefer to use <code>pip</code>, you can create a Python virtual environment and install the minimal required libraries manually:</p>
+                <ol>
+                    <li><strong>Step 1:</strong> Create a new virtual environment:<br>
+                        <pre><code class="language-bash">python -m venv .venv
+source .venv/bin/activate</code></pre>
+                    </li>
+                    <li><strong>Step 2:</strong> Install the required libraries:<br>
+                        <pre><code class="language-bash">python -m pip install jupyterlab matplotlib requests aiohttp bokeh panel xmltodict colorcet boto3 basemap OpenVisus openvisuspy </code></pre>
+                    </li>
+                </ol>
             </div>
 
             <!-- Data Access Section -->
@@ -337,54 +289,52 @@ plt.show()
 </div>
 
 
-            <!-- Visualization Section -->
+            <!-- Pythia Cookbook Section -->
+            <div id="pythia-cookbook" class="section-content" style="display:none;">
+                <h2><b>Pythia OpenVisus Cookbook</b></h2>
 
-            <!-- Visualization Section -->
-            <div id="visualization" class="section-content" style="display:none;">
-                <h2>Visualization Example: Using Matplotlib</h2>
-                <p>This page will provide resources on generating visualizations using <a href="https://matplotlib.org/">matplotlib</a>, and much more. Whether you're new to visualizing scientific data or looking for advanced techniques, you'll find valuable information below.</p>
-
-                <p>Below is a basic example of how you can visualize some of the ocean data using Python and <code>matplotlib</code>:</p>
-                <pre><code class="language-python">
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Example data (simulated sea surface temperature)
-x = np.linspace(0, 10, 100)
-y = np.linspace(0, 10, 100)
-X, Y = np.meshgrid(x, y)
-Z = np.sin(X) * np.cos(Y)
-
-# Create the plot
-plt.figure(figsize=(10, 6))
-plt.contourf(X, Z, cmap='coolwarm')
-plt.colorbar(label='Sea Surface Temperature (C)')
-plt.title('Sea Surface Temperature Visualization')
-plt.xlabel('Longitude')
-plt.ylabel('Latitude')
-plt.show()
-                </code></pre>
-
-                <p>This is a simple example of visualizing 2D data. You can modify the code to work with the real dataset, adding more complexity and details as needed.</p>
-
-                <h3>Other Visualization Tools</h3>
+                <div style="display:flex;align-items:center;margin-bottom:16px;">
+                    <img src="../assets/img/projectpythia.svg" alt="Project Pythia Logo" style="height:60px;">
+                    <a href="https://projectpythia.org/nsdf-openvisus-cookbook/" target="_blank" style="margin-left:20px; background-color:#007bff; color:#fff; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:600; font-size:16px;">Open Pythia Cookbook</a>
+                </div>
+                <p>
+                    The <a href="https://projectpythia.org/nsdf-openvisus-cookbook/" target="_blank">Pythia OpenVisus Cookbook</a> provides a comprehensive guide to working with large-scale scientific data using OpenViSUS. It includes working Jupyter notebooks, conda environment setup, and practical workflows for data access, analysis, and visualization.
+                </p>
+                <h4>Motivation</h4>
+                <p>OpenViSUS enables interactive analysis and visualization of petabyte-scale scientific datasets on any device. The cookbook teaches efficient storage, querying, and visualization using hierarchical Z-order data layouts.</p>
+                <h4>Main Sections</h4>
                 <ul>
-                    <li><a href="https://seaborn.pydata.org/">Seaborn</a> – An advanced Python library for statistical data visualization.</li>
-                    <li><a href="https://www.paraview.org/">ParaView</a> – For handling large datasets and creating 3D visualizations.</li>
-                    <li><a href="https://bokeh.org/">Bokeh</a> – Interactive visualization in modern web browsers.</li>
+                    <li><strong>Preamble:</strong> How to cite the NSDF-OpenViSUS Cookbook.</li>
+                    <li><strong>Introduction:</strong> Overview of the NSDF-OpenViSUS framework and its role in scientific data visualization.</li>
+                    <li><strong>NASA DYAMOND Datasets (C1440–LLC2160):</strong> Workflows for visualizing and analyzing NASA DYAMOND atmospheric and ocean datasets.</li>
+                    <li><strong>ECCO LLC4320 Datasets:</strong> Visualization and analysis of the ECCO LLC4320 ocean dataset, including data access and interactive exploration.</li>
                 </ul>
-
-                <h2>Data Analysis Resources</h2>
-                <p>For advanced data analysis techniques, we recommend using libraries like <a href="https://numpy.org/">NumPy</a>, <a href="https://pandas.pydata.org/">Pandas</a>, and <a href="https://xarray.pydata.org/en/stable/">Xarray</a>. These libraries allow you to handle multi-dimensional arrays and efficiently work with large-scale scientific data.</p>
-
-                <h2>Learning Resources</h2>
-                <p>If you're new to scientific computing and visualization, the following resources may be helpful:</p>
+                <h4>Running the Notebooks</h4>
                 <ul>
-                    <li><a href="https://matplotlib.org/stable/tutorials/index.html">Matplotlib Tutorials</a></li>
-                    <li><a href="https://numpy.org/learn/">NumPy Learning Resources</a></li>
-                    <li><a href="https://tutorial.xarray.dev/intro.html">Xarray Tutorials</a></li>
-                    <li><a href="https://scipy.org/">SciPy Documentation</a></li>
+                    <li><strong>On Binder:</strong> Click the rocket icon in any chapter to launch an interactive Jupyter notebook in the cloud. No installation required.</li>
+                    <li><strong>Locally:</strong> Clone the <a href="https://github.com/ProjectPythia/nsdf-openvisus-cookbook" target="_blank">GitHub repository</a>, create and activate the conda environment from <code>environment.yml</code>, and start JupyterLab in the <code>notebooks</code> directory.</li>
                 </ul>
+                <pre><code class="language-bash">
+# Clone the repository
+$ git clone https://github.com/ProjectPythia/nsdf-openvisus-cookbook
+$ cd nsdf-openvisus-cookbook
+# Create and activate the environment
+$ conda env create -f environment.yml
+$ conda activate nsdf-cookbook
+# Start JupyterLab
+$ cd notebooks
+$ jupyter lab
+</code></pre>
+                <h4>References & Further Reading</h4>
+                <ul>
+                    <li><a href="https://nationalsciencedatafabric.org/" target="_blank">National Science Data Fabric</a></li>
+                    <li><a href="https://github.com/sci-visus/OpenVisus" target="_blank">OpenVisus</a></li>
+                    <li><a href="https://github.com/sci-visus/OpenVisuspy" target="_blank">OpenVisuspy</a></li>
+                    <li><a href="https://arxiv.org/abs/2408.11831v1" target="_blank">Web-based Visualization and Analytics of Petascale data</a></li>
+                    <li><a href="https://arxiv.org/abs/2009.03254" target="_blank">Interactive Visualization of Terascale Data in the Browser</a></li>
+                    <li><a href="https://sci.utah.edu/publications/Kum2014a/KumarISC2014.pdf" target="_blank">Fast Multiresolution Reads of Massive Simulation Datasets</a></li>
+                </ul>
+                <p>For questions, contact Aashish Panta, Giorgio Scorzelli, or Valerio Pascucci.</p>
             </div>
         </div>
     </div>
