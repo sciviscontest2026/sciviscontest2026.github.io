@@ -84,7 +84,7 @@ sectionid: tasks
                 <div class="task-section">
                     <h3>Instructions</h3>
                     <ul>
-                        <li>Generate vector field visualizations showing wind direction and magnitude.</li>
+                        <li>Generate interesting visualizations showing wind direction and magnitude.</li>
                         <li>Create a dynamic visualization illustrating atmospheric circulation patterns.</li>
                     </ul>
                 </div>
@@ -145,7 +145,7 @@ sectionid: tasks
                 <!-- Overview -->
                 <div class="task-section">
                     <h3>Overview</h3>
-                    <p>Visualize the complex 3D structure of ocean currents by mapping velocity fields (u, v, w) at different depths, highlighting circulation patterns and their vertical structure.</p>
+                    <p>Visualize the complex 3D structure of thermohaline circulation by mapping ocean temperature and salinity together.</p>
                 </div>
 
                 <!-- Dataset -->
@@ -166,7 +166,7 @@ sectionid: tasks
                 <!-- Variables -->
                 <div class="task-section">
                     <h3>Variables</h3>
-                    <p>U, V, W, theta (temperature), salinity</p>
+                    <p> W, theta (temperature), salinity</p>
                 </div>
             </div>
 
