@@ -11,7 +11,8 @@ sectionid: submission
     <p>Your submission should include:</p>
     <ul>
         <li>A 2-3 page PDF describing your visualization and analysis techniques. Focus on the techniques you used and results you obtained. Do not waste space on background information or data descriptions. Please follow the <a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">formatting guidelines for the manuscript</a>. (you can download LaTeX and Word templates from this site).</li>
-        <li>Images which explain how your visualizations help answer the questions. The images should be appended to the 2-page document (your whole PDF document should be more than 2 pages). The PDF document should be no bigger than 50 MB in size.</li>
+        <li>Images which explain how your visualizations help answer the questions. The images should be appended to the submission document. The PDF document should be no bigger than 50 MB in size.</li>
+        
         <li>An MPEG, AVI, or Quicktime video (maximum 10 minutes) showing the system, methods, or processes in action. This will be most helpful for demonstrating the effectiveness of your approach.</li>
         <li>We accept both individual and group submissions. Please include all authors list during the submission.</li>
     </ul>
