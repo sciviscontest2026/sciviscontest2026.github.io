@@ -146,7 +146,7 @@ sectionid: data
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <!-- <tr>
                         <td>u</td>
                         <td>float32</td>
                         <td>m s-1</td>
@@ -161,7 +161,7 @@ sectionid: data
                         <td>Sea-surface north-south velocity</td>
                         <td>(17280, 12960, 90)</td>
                         <td>Latitude, Longitude, Depth</td>
-                    </tr>
+                    </tr> -->
                     <tr>
                         <td>w</td>
                         <td>float32</td>

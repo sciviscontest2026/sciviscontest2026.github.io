@@ -75,16 +75,24 @@ import openvisuspy as ovp
 
                     <ul><strong>Step 2: Define the field you want to access</strong></ul>
                     <pre><code class="language-python">
-#available options=[salt, theta, u, v, w]; choose one below.. lets say, we select w for now 
+#available options=[salt, theta,  w]; choose one below.. lets say, we select w for now 
 variable = 'w'
+
+#or direct links
+temperature="pelican://osg-htc.org/nasa/nsdf/climate1/llc4320/idx/theta/theta_llc4320_x_y_depth.idx"
+
+salinity="pelican://osg-htc.org/nasa/nsdf/climate1/llc4320/idx/salt/salt_llc4320_x_y_depth.idx"
+
+vertical_velocity="pelican://osg-htc.org/nasa/nsdf/climate2/llc4320/idx/w/w_llc4320_x_y_depth.idx"
 </code></pre>
 <ul><strong>Step 3: Load the IDX metadata:</strong>
 In this section, you can select any variables that you can declared in the cells above and replace it inside LoadDataset. We are just reading the metadata for the dataset here. </ul>
 <pre><code class="language-bash">
-# Step 3: Load the 4320 dataset from OSDF.. if  salt or theta is selected above, change climate2 to climate1 below
+# Step 3: Load the 4320 dataset from OSDF.. if  salt or theta is selected above, change climate2 to climate1 below, or directly use the variable defined above.
+
 field= f"pelican://osg-htc.org/nasa/nsdf/climate2/llc4320/idx/w/w_llc4320_x_y_depth.idx"
 
-db=ovp.LoadDataset(field)
+db=ovp.LoadDataset(field).   # or replace field with variable defined above like temperature, salinity
 print(f'Dimensions: {db.getLogicBox()[1][0]}*{db.getLogicBox()[1][1]}*{db.getLogicBox()[1][2]}')
 print(f'Total Timesteps: {len(db.getTimesteps())}')
 print(f'Field: {db.getField().name}')
