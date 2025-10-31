@@ -28,6 +28,8 @@ url: https://sciviscontest2026.github.io
 #launch website
 bundle exec jekyll serve
 
+# or for different port:: 
+bundle exec jekyll serve --port 8989 --livereload --host 127.0.0.1
 
 ```
 
