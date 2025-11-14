@@ -150,7 +150,7 @@ sectionid: data
                         <td>u</td>
                         <td>float32</td>
                         <td>m s-1</td>
-                        <td>Sea-surface east-west velocity</td>
+                        <td>East-west velocity</td>
                         <td>(17280, 12960, 90)</td>
                         <td> Latitude, Longitude, Depth</td>
                     </tr>
@@ -158,7 +158,7 @@ sectionid: data
                         <td>v</td>
                         <td>float32</td>
                         <td>m s-1</td>
-                        <td>Sea-surface north-south velocity</td>
+                        <td>North-south velocity</td>
                         <td>(17280, 12960, 90)</td>
                         <td>Latitude, Longitude, Depth</td>
                     </tr> -->
@@ -166,7 +166,7 @@ sectionid: data
                         <td>w</td>
                         <td>float32</td>
                         <td>m s-1</td>
-                        <td>Sea-surface vertical velocity</td>
+                        <td>Vertical velocity</td>
                         <td>(17280, 12960, 90)</td>
                         <td>Latitude, Longitude, Depth</td>
                     </tr>
@@ -174,7 +174,7 @@ sectionid: data
                         <td>theta</td>
                         <td>float32</td>
                         <td>°C</td>
-                        <td>Sea-surface Temperature</td>
+                        <td>Temperature</td>
                         <td>(17280, 12960, 90)</td>
                         <td>Latitude, Longitude, Depth</td>
                     </tr>
@@ -182,7 +182,7 @@ sectionid: data
                         <td>salt</td>
                         <td>float32</td>
                         <td>g kg-1</td>
-                        <td>Sea Water Salinity</td>
+                        <td>Salinity</td>
                         <td>(17280, 12960, 90)</td>
                         <td>Latitude, Longitude, Depth</td>
                     </tr>
@@ -346,6 +346,7 @@ sectionid: data
                 </tbody>
             </table>
             LLC2160 Ocean Data:
+                The MITgcm model uses a latitude-longitude grid for its ocean model data. The variables available are listed below. The depth levels are the same as those in the ECCO LLC4320 dataset.
              <table class="table table-bordered">
                 <thead>
                     <tr>
@@ -362,7 +363,7 @@ sectionid: data
                         <td>U</td>
                         <td>float32</td>
                         <td>m s-1</td>
-                        <td>Sea-surface east-west velocity</td>
+                        <td>East-west velocity</td>
                         <td>(8640, 6480, 90)</td>
                         <td> Latitude, Longitude, Depth</td>
                     </tr>
@@ -370,7 +371,7 @@ sectionid: data
                         <td>V</td>
                         <td>float32</td>
                         <td>m s-1</td>
-                        <td>Sea-surface north-south velocity</td>
+                        <td>North-south velocity</td>
                         <td>(8640, 6480, 90)</td>
                         <td>Latitude, Longitude, Depth</td>
                     </tr>
@@ -378,7 +379,7 @@ sectionid: data
                         <td>W</td>
                         <td>float32</td>
                         <td>m s-1</td>
-                        <td>Sea-surface vertical velocity</td>
+                        <td>Vertical velocity</td>
                         <td>(8640, 6480, 90)</td>
                         <td>Latitude, Longitude, Depth</td>
                     </tr>
@@ -386,7 +387,7 @@ sectionid: data
                         <td>Theta</td>
                         <td>float32</td>
                         <td>°C</td>
-                        <td>Sea-surface Temperature</td>
+                        <td>Temperature</td>
                         <td>(8640, 6480, 90)</td>
                         <td>Latitude, Longitude, Depth</td>
                     </tr>
