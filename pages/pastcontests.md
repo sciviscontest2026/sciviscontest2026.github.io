@@ -8,7 +8,7 @@ sectionid: pastcontests
 <div class="container">
     <h2>Past Contests</h2>
     <ul class="past-contests-list">
-        <li><a href="https://github.com"  target="_blank"><i class="fa fa-calendar" aria-hidden="true"></i> 2025: N/A</a></li>
+        <li><a href="https://sciviscontest2025.github.io/"  target="_blank"><i class="fa fa-calendar" aria-hidden="true"></i> 2025: Material Science Challenge: discovery of novel materials</a></li>
         <li><a href="https://sciviscontest2024.github.io/" target="_blank"><i class="fa fa-calendar" aria-hidden="true"></i> 2024:Sonar Imaging for Hydrothermal Systems
         </a></li>
         <li><a href="https://sciviscontest2023.github.io/" target="_blank"><i class="fa fa-calendar" aria-hidden="true"></i> 2023: Neuronal Network Simulations of the Human Brain</a></li>

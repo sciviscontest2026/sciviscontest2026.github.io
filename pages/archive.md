@@ -14,7 +14,7 @@ sectionid: Archive
       <a href="https://docs.google.com/presentation/d/11f6MOVtZiWvxuep-g4EmcLdpYLZGPoGJ/edit?usp=sharing&ouid=118398266327633939661&rtpof=true&sd=true" target="_blank" class="btn btn-primary">View Slides</a>
     </div>
   </div>
-
+<!-- 2025 data engineering course -->
   <!-- Past Presentations Section -->
   <h1 class="text-center" style="margin-top:40px;">Past Presentations</h1>
   <div class="presentation-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
@@ -39,10 +39,10 @@ sectionid: Archive
       <p><small>Date: Spring 2025</small></p>
     </div>
     
-    <!-- Presentation Card 4: Upcoming University of Tennessee, Knoxville -->
+    <!-- Presentation Card 4: University of Tennessee, Knoxville -->
     <div class="presentation-card" style="flex: 1 1 300px; border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; cursor: pointer;">
       <h3>University of Tennessee, Knoxville</h3>
-      <p>We will be presenting this work to students in an upcoming class at UT Knoxville.</p>
+      <p>As a part of 2025 Data Engineering at UTK.</p>
       <p><small>Date: Upcoming</small></p>
     </div>
     
