@@ -26,7 +26,7 @@ sectionid: home
             </center>
         </div>
     </div>
-    <hr>
+
     <div class="row">
         <div class="col-md-3 col-sm-6">
             <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
@@ -48,6 +48,15 @@ sectionid: home
             <h3 class="text-center">Win Exciting Cash Prizes!</h3>
             <p>Submissions will be evaluated by the contest chairs, focusing on criteria such as usability, creativity, and innovation. The top entry will be awarded a $1000 cash prize, generously sponsored by <a href="https://www.visoar.com"  target="_blank">ViSOAR</a>.</p>
         </div>
+    </div>
+    <!-- second video after cash prizes -->
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 class="header-light regular-pad">Contest Overview Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/paQRbfA0tdg?si=J33fED8qtSxcq_G4&amp;start=3142" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row">
     </div>
     <hr>
     <div class="row">

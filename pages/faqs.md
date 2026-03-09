@@ -45,7 +45,7 @@ sectionid: faqs
         <li>For a <strong>competitive submission</strong>, we encourage tackling at least one or more of <strong>Tasks 1-3</strong> alongside developing interactive tools for data exploration.</li>
         <li>You do <strong>not</strong> need to strictly adhere to the defined tasks. If your visualizations are complex and innovative while leveraging the provided datasets, you are encouraged to pursue your own creative direction.</li>
     </ul>
-    <p>The key is to demonstrate originality, insightfulness, and technical execution—whether that's through the suggested tasks or your own creative exploration.</p>
+    <p>The key is to demonstrate originality, insightfulness, and technical execution for large datasets, whether that's through the suggested tasks or your own creative exploration.</p>
 
     <h4>Contact</h4>
     <div style="margin-top:32px;">
