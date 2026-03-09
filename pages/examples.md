@@ -252,7 +252,13 @@ scenario  = "ssp585"
 field = f"{variable}_day_{model}_{scenario}_r1i1p1f1_gn"
 
 # Open remote dataset to variable db
-db = ov.LoadDataset(f"http://atlantis.sci.utah.edu/mod_visus?dataset=nex-gddp-cmip6&cached=arco")
+try:
+    dataset_url="http://atlantis.sci.utah.edu/mod_visus?dataset=nex-gddp-cmip6"
+    db=ov.LoadDataset(dataset_url)
+except:
+    dataset_url="https://us-east-1.gw.future-tech-holdings.com/nasa-t0/nex-gddp-cmip6/nex-gddp-cmip6.idx"
+    db=ov.LoadDataset(dataset_url)
+
 print("Dataset loaded successfully!")
 print(f"Available fields: {db.getFields()}")
     </code></pre>
