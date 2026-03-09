@@ -15,7 +15,7 @@ sectionid: faqs
     <p><em>Please note:</em> Registration for the <strong>IEEE VIS Conference</strong> is separate and handled by their organizing committee.</p>
 
     <h4>👥 Can I participate as a team?</h4>
-    <p>Yes! You may participate as an <strong>individual</strong> or as a <strong>group of up to 5 members</strong>. There’s no hard limit, but we suggest keeping teams small and fair for everyone.</p>
+    <p>Yes! You may participate as an <strong>individual</strong> or as a <strong>group of up to 6 members</strong>. There’s no hard limit, but we suggest keeping teams small and fair for everyone.</p>
 
     <h4>🌍 Who can join the contest?</h4>
     <p><strong>Anyone in the world</strong> is welcome to join. The contest is open globally, and we encourage participation from students, researchers, industry professionals, and data visualization enthusiasts.</p>
