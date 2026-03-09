@@ -38,6 +38,15 @@ sectionid: faqs
     </ol>
     <p>More details on the submission process will be shared soon!</p>
 
+    <h4>📋 Are participants required to address all the tasks listed here to be considered for the contest?</h4>
+    <p>No, participants are <strong>not required</strong> to complete all tasks. In fact, you have flexibility in choosing which tasks to pursue. Here's what you should know:</p>
+    <ul>
+        <li><strong>Task 0</strong> is foundational exploration to get familiar with the dataset—consider it a starting point.</li>
+        <li>For a <strong>competitive submission</strong>, we encourage tackling at least one or more of <strong>Tasks 1-3</strong> alongside developing interactive tools for data exploration.</li>
+        <li>You do <strong>not</strong> need to strictly adhere to the defined tasks. If your visualizations are complex and innovative while leveraging the provided datasets, you are encouraged to pursue your own creative direction.</li>
+    </ul>
+    <p>The key is to demonstrate originality, insightfulness, and technical execution—whether that's through the suggested tasks or your own creative exploration.</p>
+
     <h4>Contact</h4>
     <div style="margin-top:32px;">
         <h4>📬 Interested in Participating?</h4>
