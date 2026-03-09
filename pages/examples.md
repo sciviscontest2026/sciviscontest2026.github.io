@@ -298,7 +298,8 @@ plt.show()
     <h3 id="dashboard">Dashboard</h3>
     <p>Check out this NEX GDDP CMIP6 <a href="https://chpc3.nationalsciencedatafabric.org:12347/dashboards"  target="_blank">Dashboard</a> we deployed for interactive exploration and visualization of the dataset. This dashboard allows users to select variables, timesteps, and generate visualizations interactively.</p>
 
-    <h3 id="quarto">Quarto Documentation</h3>
+    <h3 id="quarto">Github and Quarto Documentation</h3>
+    <p> Check out this <a href='https://github.com/sci-visus/sciviscontest2026/tree/main/notebooks_examples' target="_blank">Github repo </a> for up-to-date jupyter notebooks. </p>
     <p>Check out this  <a href="https://aashishp.quarto.pub/nex-gddp-cmip6/"  target="_blank">Quarto documentation</a> for more details on accessing the NEX-GDDP-CMIP6 data. The documentation includes step-by-step instructions for loading and visualizing climate model data using Python and OpenVisus.</p>
 </div>
 
