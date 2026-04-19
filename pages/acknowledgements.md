@@ -16,8 +16,9 @@ sectionid: acknowledgements
                 <li class="hover-link" data-logo="nsdf"><a href="https://nationalsciencedatafabric.org/" target="_blank">National Science Data Fabric (NSDF)</a></li>
                 <li class="hover-link" data-logo="nasa"><a href="https://www.nas.nasa.gov/hecc/" target="_blank">NASA ARC</a></li>
                 <li class="hover-link" data-logo="nasajpl"><a href="https://www.jpl.nasa.gov/" target="_blank">NASA JPL</a></li>
-                <li class="hover-link" data-logo="seal"><a href="https://sealstorage.io/" target="_blank">SEAL Storage</a></li>
                 <li class="hover-link" data-logo="osg"><a href="https://osg-htc.org/services/osdf.html" target="_blank">Open Science Data Federation (OSDF)</a></li>
+                <li class="hover-link" data-logo="fth"><a href="https://future-tech-holdings.com/" target="_blank">Future Tech Holdings</a></li>
+
                 <li class="hover-link" data-logo="visoar"><a href="https://www.visoar.com/" target="_blank">ViSOAR</a></li>
                 <li class="hover-link" data-logo="wired"><a href="https://resilience.utah.edu/" target="_blank">Wired Global Center</a></li>
                 <li class="hover-link" data-logo="pelican"><a href="https://pelicanplatform.org/" target="_blank">Pelican Platform</a></li>
@@ -47,16 +48,17 @@ sectionid: acknowledgements
             </div>
             
             <div class="row">
-            <div class="col-md-4 col-sm-6 text-center">
-                    <a href="https://sealstorage.io/" target="_blank">
-                        <img id="seal" src="{{ '/assets/img/seal.png' | relative_url }}" alt="SEAL" class="img-fluid logo-img">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6 text-center">
+                            <div class="col-md-4 col-sm-6 text-center">
                     <a href="https://osg-htc.org/services/osdf.html" target="_blank">
                         <img id="osg" src="{{ '/assets/img/OSG-logo.svg' | relative_url }}" alt="OSG Logo" class="img-fluid logo-img">
                     </a>
                 </div>
+            <div class="col-md-4 col-sm-6 text-center">
+                    <a href="https://future-tech-holdings.com/" target="_blank">
+                        <img id="fth" src="{{ '/assets/img/fth.svg' | relative_url }}" alt="FTH" class="img-fluid logo-img">
+                    </a>
+                </div>
+
                 <div class="col-md-4 col-sm-6 text-center">
                     <a href="https://visoar.net/" target="_blank">
                         <img id="visoar" src="{{ '/assets/img/visoar.png' | relative_url }}" alt="ViSOAR" class="img-fluid logo-img">
@@ -95,6 +97,11 @@ sectionid: acknowledgements
     margin: 20px auto;
     display: block;
     transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#fth {
+    max-height: 120px;
+    width: auto;
 }
 
 .logo-img:hover {
