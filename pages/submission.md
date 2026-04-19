@@ -7,7 +7,7 @@ sectionid: submission
 
 <div class="container">
     <!-- <h1>Submission</h1> -->
-    <h2>Submission Instructions (This will be updated once IEEE VIS makes the submission link public)</h2>
+    <h2>Submission Instructions</h2>
     <p>Your submission should include:</p>
     <ul>
         <li>A 3-4 page PDF describing your visualization and analysis techniques. You may use an additional page for references, if any.  Focus on the techniques you used and results you obtained. Do not waste space on background information or data descriptions. Please follow the <a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">formatting guidelines for the manuscript</a>. (you can download LaTeX and Word templates from this site).</li>
@@ -22,10 +22,13 @@ sectionid: submission
         <li>Go to <a href="https://new.precisionconference.com">https://new.precisionconference.com</a></li>
         <li>Sign in or create a new account</li>
         <li>Go to the <strong>Submissions</strong> tab at the top</li>
-        <li>Under <strong>Make a new submission</strong>, select <strong>VGTC</strong> as Society, <strong>VIS 2026</strong> as Conference/Journal, and <strong>VIS 2026 SciVis Contest</strong> as Track, as shown in this screenshot: (NEED TO ADD once its available)</li>
+        <li>Under <strong>Make a new submission</strong>, select <strong>VGTC</strong> as Society, <strong>VIS 2026</strong> as Conference/Journal, and <strong>VIS 2026 SciVis Contest</strong> as Track, as shown in this screenshot: </li>
+           <img src="{{ "/assets/img/submission.png" | relative_url }}" alt="Submission Selection Screenshot" class="img-responsive">
         <li>Edit the submission with your data and record the changes before the deadline.</li>
+        <li>The best submission will be invited to to submit an extended version to CG&A for consideration for publication. 
+        </li>
     </ol>
-    <!-- <img src="{{ "/assets/img/submission-screenshot.png" | relative_url }}" alt="Submission Selection Screenshot" class="img-responsive"> -->
+ 
     
     <h2>Important Dates</h2>
     <p>We will be following a process similar to previous years. There might be slight changes, but the current plan is as follows:</p>
@@ -43,7 +46,7 @@ sectionid: submission
                 <td>Official announcement of the 2026 IEEE SciVis Contest at IEEE VIS 2025.</td>
             </tr>
             <tr>
-                <td>July 31, 2026 </td>
+                <td>July 19, 2026 </td>
                 <td>Submission Deadline.</td>
             </tr>
             <tr>

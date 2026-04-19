@@ -20,13 +20,8 @@ sectionid: faqs
     <h4>🌍 Who can join the contest?</h4>
     <p><strong>Anyone in the world</strong> is welcome to join. The contest is open globally, and we encourage participation from students, researchers, industry professionals, and data visualization enthusiasts.</p>
 
-    <h4>📅 When will the contest take place?</h4>
-    <p>Participants can start working on their visualizations at any time. However:</p>
-    <ul>
-        <li>The <strong>submission portal</strong> is expected to open in <strong>late 2025</strong></li>
-        <li>The final deadline will be <strong>mid-2026</strong></li>
-    </ul>
-    <p>We’ll provide updates as soon as the IEEE VIS team opens the submission portal.</p>
+    <h4>📅 When and where will the contest take place?</h4>
+    <The>Participants can start working on their visualizations at any time. However, the deadline is <strong>July 19, 2026.</strong> The 2026 IEEE VIS is being held in Boston from November 9 to 13.
 
     <h4>📝 What is the process to join the challenge?</h4>
     <p>There is <strong>no registration form</strong> required to join. Simply follow these steps:</p>
@@ -47,14 +42,15 @@ sectionid: faqs
     </ul>
     <p>The key is to demonstrate originality, insightfulness, and technical execution for large datasets, whether that's through the suggested tasks or your own creative exploration.</p>
 
-    <h4>Contact</h4>
+    
     <div style="margin-top:32px;">
-        <h4>📬 Interested in Participating?</h4>
+    <h4>Contact</h4>
         <p>If you have questions or would like to connect directly, contact:</p>
         <ul style="margin-bottom:16px;">
             <li><strong>Aashish Panta</strong>: <a href="mailto:aashishpanta0@gmail.com">aashishpanta0@gmail.com</a></li>
             <li><strong>Giorgio Scorzelli</strong>: <a href="mailto:scrgiorgio@gmail.com">scrgiorgio@gmail.com</a></li>
         </ul>
+        <p>Or join the Google Group here: <a href="https://groups.google.com/g/2026-ieee-scivis-contest">2026-ieee-scivis-contest@googlegroups.com</a></p>
         <p>Or, if you prefer, fill out the form below to express your interest or ask questions. We'll keep you updated and help with any inquiries.</p>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePdqXxnqrAsUCAkVS2OfgkJ_aDZD61mYIBKGeS-RAK2olWdA/viewform?embedded=true" width="100%" height="1740" frameborder="0" marginheight="0" marginwidth="0" style="border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">Loading…</iframe>
     </div>
