@@ -52,7 +52,7 @@ source .venv/bin/activate</code></pre>
 source .venv/bin/activate</code></pre>
                     </li>
                     <li><strong>Step 2:</strong> Install the required libraries:<br>
-                        <pre><code class="language-bash">python -m pip install jupyterlab matplotlib requests aiohttp bokeh panel xmltodict colorcet boto3 basemap OpenVisus openvisuspy </code></pre>
+                        <pre><code class="language-bash">python -m pip install jupyterlab matplotlib requests aiohttp bokeh panel xmltodict colorcet boto3 basemap xarray netcdf4 intake intake-nexgddp cartopy OpenVisus openvisuspy </code></pre>
                     </li>
                 </ol>
             </div>
@@ -253,7 +253,7 @@ field = f"{variable}_day_{model}_{scenario}_r1i1p1f1_gn"
 
 # Open remote dataset to variable db
 try:
-    dataset_url="http://atlantis.sci.utah.edu/mod_visus?dataset=nex-gddp-cmip6"
+    dataset_url="https://atlantis.sci.utah.edu/mod_visus?dataset=nex-gddp-cmip6"
     db=ov.LoadDataset(dataset_url)
 except:
     dataset_url="https://us-east-1.gw.future-tech-holdings.com/nasa-t0/nex-gddp-cmip6/nex-gddp-cmip6.idx"
