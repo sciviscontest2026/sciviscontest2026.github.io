@@ -46,7 +46,7 @@ sectionid: submission
                 <td>Official announcement of the 2026 IEEE SciVis Contest at IEEE VIS 2025.</td>
             </tr>
             <tr>
-                <td>July 19, 2026 </td>
+                <td>July 31, 2026 </td>
                 <td>Submission Deadline.</td>
             </tr>
             <tr>

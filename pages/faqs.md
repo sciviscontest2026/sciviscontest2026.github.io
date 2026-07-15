@@ -21,7 +21,7 @@ sectionid: faqs
     <p><strong>Anyone in the world</strong> is welcome to join. The contest is open globally, and we encourage participation from students, researchers, industry professionals, and data visualization enthusiasts.</p>
 
     <h4>📅 When and where will the contest take place?</h4>
-    <The>Participants can start working on their visualizations at any time. However, the deadline is <strong>July 19, 2026.</strong> The 2026 IEEE VIS is being held in Boston from November 9 to 13.
+    <The>Participants can start working on their visualizations at any time. However, the deadline is <strong>July 31, 2026.</strong> The 2026 IEEE VIS is being held in Boston from November 9 to 13.
 
     <h4>📝 What is the process to join the challenge?</h4>
     <p>There is <strong>no registration form</strong> required to join. Simply follow these steps:</p>
