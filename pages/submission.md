@@ -15,6 +15,7 @@ sectionid: submission
         
         <li>An MPEG, AVI, or Quicktime video (maximum 10 minutes) showing the system, methods, or processes in action. This will be most helpful for demonstrating the effectiveness of your approach.</li>
         <li>We accept both individual and group submissions. Please include all authors list during the submission.</li>
+        <li>We will invite top submissions for presentation at 2026 IEEE SciVis contest, being held in Boston from November 9 to 13.</li>
     </ul>
 
     <h3>To Submit:</h3>
