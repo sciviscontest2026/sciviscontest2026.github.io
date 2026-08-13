@@ -7,6 +7,10 @@ sectionid: submission
 
 <div class="container">
     <!-- <h1>Submission</h1> -->
+    <h2>Submission Status</h2>
+    <p><strong>The submission deadline is now closed.</strong> The review process is underway, and reviewers are being assigned to the submitted entries.</p>
+    <p>The top shortlisted submissions will be invited for presentation at the 2026 IEEE SciVis Contest on November 9–10. A virtual presentation option will be available for presenters who are unable to attend in person.</p>
+
     <h2>Submission Instructions</h2>
     <p>Your submission should include:</p>
     <ul>
