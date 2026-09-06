@@ -7,6 +7,13 @@ sectionid: home
 ---
 <div class="header-container jumbotron">
     <div class="container">
+        <div class="schedule-notice-box">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <div>
+                <strong>Monday, November 9 · 8:00–11:30am</strong> — Presentations for shortlisted SciVis Contest candidates
+                <span class="schedule-meta">Coffee break 9:30–10:00am · Schedule subject to change</span>
+            </div>
+        </div>
         <h1>IEEE 2026 SciVis Contest</h1>
         <p>Visualizing the future of climate science, one dataset at a time.</p>
         <p><a class="btn btn-primary btn-lg" href="{{ "/home/" | relative_url }}" role="button">Learn more</a></p>
