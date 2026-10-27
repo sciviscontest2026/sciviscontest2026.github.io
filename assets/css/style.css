@@ -1,17 +1,7 @@
-/* Container for the data page */
-.container {
+/* Keep spacing on page content without affecting navbar containers. */
+.page-content .container {
     margin-top: 20px;
-  }
-  
-  /* Styling the sidebar box */
-  .sidebar-box {
-    background-color: #f8f9fa;
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
+}
   
   .presentation-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
@@ -24,51 +14,6 @@
     background-color: #f5f5f5;
   }
   
-  /* Styling for each nav link inside the sidebar */
-  .nav-link {
-    display: block;
-    padding: 10px;
-    color: #333;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  /* Hover and active link styles */
-  .nav-link:hover {
-    background-color: #e9ecef;
-  }
-  
-  .nav-link.active {
-    background-color: #ffa500;
-    color: #fff;
-    font-weight: bold;
-  }
-  
-  /* Styling the data content */
-  .data-content {
-    margin-top: 20px;
-  }
-  
-  h2 {
-    margin-top: 0;
-  }
-  
-  /* Style for the download button */
-  .btn-primary {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0056b3;
-  }
  /* General form styles */
 .submission-form {
     background-color: #f8f9fa;
@@ -128,44 +73,38 @@
   #add-member {
     margin-top: 10px;
   }
-  /* Past Contests List Styling */
-.past-contests-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px 0;
-}
-
-.past-contests-list li {
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    transition: background-color 0.3s ease;
+  /* Sticky footer via flex: keeps the footer in normal flow so it never
+   overlaps content when page height changes (e.g. switching tabs). */
+body {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.past-contests-list li a {
-    text-decoration: none;
-    color: #007bff;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
+.page-content {
+    flex: 1 0 auto;
 }
 
-.past-contests-list li:hover {
-    background-color: #f0f0f0;
+/* Keep the shared footer compact and readable across screen sizes. */
+.footer {
+    position: static;
+    padding: 24px 0 12px;
+    background-color: #f5f7f8;
+    border-top: 1px solid #dce4e8;
 }
 
-.past-contests-list li i {
-    margin-right: 10px;
-    color: #6c757d;
+.footer-content p {
+    margin-bottom: 10px;
 }
 
-.past-contests-list li a:hover {
-    color: #0056b3;
+.footer-credit {
+    margin: 10px 0 0;
+    color: #687985;
+    font-size: 13px;
 }
 
-.past-contests-list li:hover i {
-    color: #007bff;
+@media (max-width: 767px) {
+    .footer-content .text-right {
+        text-align: left;
+    }
 }

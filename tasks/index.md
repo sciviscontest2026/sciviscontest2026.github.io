@@ -6,9 +6,9 @@ redirect_from: /tasks/index.html
 sectionid: tasks
 ---
 
-<div class="container">
+<div class="container page-section tab-page">
     <h1>Contest Tasks</h1>
-    <p>Welcome to the tasks page for the 2026 SciVis Contest. </p  >
+    <p class="lead page-intro">Welcome to the tasks page for the 2026 SciVis Contest.</p>
 
     <div class="task-section">
         <p>To stand out, participants are encouraged to develop <strong>innovative visualization techniques</strong> that go beyond simple maps. Think creatively. </p>
@@ -21,10 +21,10 @@ sectionid: tasks
         <div class="col-md-3">
             <div class="sidebar-box">
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="#task0" onclick="showTask('task0')">Task 0: Climate Change Exploration</a>
-                    <a class="nav-link" href="#task1" onclick="showTask('task1')">Task 1: Wind Patterns</a>
-                    <a class="nav-link" href="#task2" onclick="showTask('task2')">Task 2: Coupled Atmosphere-Ocean Systems</a>
-                    <a class="nav-link" href="#task3" onclick="showTask('task3')">Task 3: 3D Ocean Circulation</a>
+                    <a class="nav-link active" href="#task0" onclick="showTask('task0'); return false;">Task 0: Climate Change Exploration</a>
+                    <a class="nav-link" href="#task1" onclick="showTask('task1'); return false;">Task 1: Wind Patterns</a>
+                    <a class="nav-link" href="#task2" onclick="showTask('task2'); return false;">Task 2: Coupled Atmosphere-Ocean Systems</a>
+                    <a class="nav-link" href="#task3" onclick="showTask('task3'); return false;">Task 3: 3D Ocean Circulation</a>
                 </nav>
             </div>
         </div>
@@ -172,8 +172,6 @@ sectionid: tasks
                     <h3>Variables</h3>
                     <p> theta (temperature), salinity</p>
                 </div>
-            </div>
-
             </div>
         </div>
     </div>

@@ -13,8 +13,7 @@ sectionid: faqs
 
     <div class="faq-item">
         <h3>Is there a registration fee to participate?</h3>
-        <p>No. Submission to the 2026 IEEE SciVis Contest is <strong>free</strong>. You do not need to pay or register separately to enter—use the provided data and submit your visualization.</p>
-        <p>Registration for the <strong>IEEE VIS Conference</strong> itself is separate and handled by the conference organizers.</p>
+        <p>No. Submission to the 2026 IEEE SciVis Contest is <strong>free</strong>. You do not need to pay or register separately to enter—use the provided data and submit your visualization. Shortlisted candidates must register for IEEE VIS to present their work.</p>
     </div>
 
     <div class="faq-item">

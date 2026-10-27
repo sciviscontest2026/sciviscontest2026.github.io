@@ -5,19 +5,19 @@ permalink: /examples/
 sectionid: examples
 ---
 
-<div class="container">
-    <h2>Examples for Data Access and Visualization</h2>
+<div class="container page-section tab-page">
+    <h1>Examples for Data Access and Visualization</h1>
 
     <div class="row">
         <!-- Sidebar Column -->
         <div class="col-md-3">
             <div class="sidebar-box">
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="#prerequisites" onclick="showSection('prerequisites')">Prerequisites</a>
-                    <a class="nav-link" href="#pythia-cookbook" onclick="showSection('pythia-cookbook')">Pythia OpenVisus Cookbook</a>
-                    <a class="nav-link" href="#access-llc4320" onclick="showSection('access-llc4320')">Access LLC4320 ECCO Data</a>
-                    <a class="nav-link" href="#access-dyamond" onclick="showSection('access-dyamond')">Access DYAMOND Data</a>
-                    <a class="nav-link" href="#access-nex-gddp-cmip6" onclick="showSection('access-nex-gddp-cmip6')">Access NEX GDDP CMIP6 Data</a>
+                    <a class="nav-link active" href="#prerequisites" onclick="showSection('prerequisites'); return false;">Prerequisites</a>
+                    <a class="nav-link" href="#pythia-cookbook" onclick="showSection('pythia-cookbook'); return false;">Pythia OpenVisus Cookbook</a>
+                    <a class="nav-link" href="#access-llc4320" onclick="showSection('access-llc4320'); return false;">Access LLC4320 ECCO Data</a>
+                    <a class="nav-link" href="#access-dyamond" onclick="showSection('access-dyamond'); return false;">Access DYAMOND Data</a>
+                    <a class="nav-link" href="#access-nex-gddp-cmip6" onclick="showSection('access-nex-gddp-cmip6'); return false;">Access NEX GDDP CMIP6 Data</a>
 
                 </nav>
             </div>
@@ -44,7 +44,6 @@ sectionid: examples
                 <p>For more instructions on managing conda environments, see the <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" target="_blank">official documentation</a>.</p>
 
                 <h3>Option 2: Using pip</h3>
-source .venv/bin/activate</code></pre>
                 <p>If you prefer to use <code>pip</code>, you can create a Python virtual environment and install the minimal required libraries manually:</p>
                 <ol>
                     <li><strong>Step 1:</strong> Create a new virtual environment:<br>
@@ -306,11 +305,11 @@ plt.show()
 
             <!-- Pythia Cookbook Section -->
             <div id="pythia-cookbook" class="section-content" style="display:none;">
-                <h2><b>Pythia OpenVisus Cookbook</b></h2>
+                <h2>Pythia OpenVisus Cookbook</h2>
 
-                <div style="display:flex;align-items:center;margin-bottom:16px;">
-                    <img src="../assets/img/projectpythia.svg" alt="Project Pythia Logo" style="height:60px;">
-                    <a href="https://projectpythia.org/nsdf-openvisus-cookbook/" target="_blank" style="margin-left:20px; background-color:#007bff; color:#fff; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:600; font-size:16px;">Open Pythia Cookbook</a>
+                <div class="resource-header">
+                    <img src="../assets/img/projectpythia.svg" alt="Project Pythia Logo">
+                    <a href="https://projectpythia.org/nsdf-openvisus-cookbook/" target="_blank" class="btn btn-primary">Open Pythia Cookbook</a>
                 </div>
                 <p>
                     The <a href="https://projectpythia.org/nsdf-openvisus-cookbook/" target="_blank">Pythia OpenVisus Cookbook</a> provides a comprehensive guide to working with large-scale scientific data using OpenViSUS. It includes working Jupyter notebooks, conda environment setup, and practical workflows for data access, analysis, and visualization.

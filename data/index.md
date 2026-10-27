@@ -6,18 +6,18 @@ redirect_from: /data/index.html
 sectionid: data
 ---
 
-<div class="container">
+<div class="container page-section tab-page">
     <h1>Data for 2026 SciVis Contest</h1>
-    <p>Select a dataset to view the details:</p>
+    <p class="lead page-intro">Select a dataset to view the details.</p>
 
     <div class="row">
         <!-- Sidebar Column -->
         <div class="col-md-3">
             <div class="sidebar-box">
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="#data1" onclick="showData('data1')">ECCO LLC4320 Data</a>
-                    <a class="nav-link" href="#data2" onclick="showData('data2')">DYAMOND Data</a>
-                    <a class="nav-link" href="#data3" onclick="showData('data3')">NEX GDDP CMIP6 Data</a>
+                    <a class="nav-link active" href="#data1" onclick="showData('data1'); return false;">ECCO LLC4320 Data</a>
+                    <a class="nav-link" href="#data2" onclick="showData('data2'); return false;">DYAMOND Data</a>
+                    <a class="nav-link" href="#data3" onclick="showData('data3'); return false;">NEX GDDP CMIP6 Data</a>
                 </nav>
             </div>
         </div>
@@ -36,7 +36,8 @@ sectionid: data
         <p><strong>Variables:</strong> The dataset includes various oceanographic variables, each available at 90 different depth levels. These depths represent model layers from the sea surface down to deeper ocean levels. Select the level below to get its corresponding depth from the sea surface in meters:</p>
 
 <!-- Dropdown for depth levels -->
-<select id="depth-level" onchange="showDepth()" style="width:15%;">
+<div class="depth-picker">
+<select id="depth-level" class="form-control" onchange="showDepth()">
     <option value="">Select a level</option>
     <!-- Generate options for levels 1-90 -->
     <option value="0.5">Level 1</option>
@@ -131,6 +132,7 @@ sectionid: data
     <option value="6760">Level 90</option>
 </select>
     <p id="depth-display"></p>
+</div>
 
         <p>The depths are distributed to capture surface processes more finely while still representing the deeper ocean layers, ensuring both near-surface and deep ocean dynamics are well resolved.</p>
 
@@ -201,8 +203,8 @@ sectionid: data
             <p>This "nature" simulation provides a unique synthetic dataset for atmospheric and oceanic boundary layer studies and for satellite and in-situ observing system design.</p>
             <h3>Data</h3>
             <p><strong>Variables:</strong> The dataset includes the combination of LLC2160 configuration of MITgcm ocean model and  c1440 configuration of GEOS model. These variables are shown below separately.</p>
-            GEOS Atmospheric Data:
-             The GEOS model uses cubed-sphere grid that helps improve the representation of the polar regions compared to traditional latitude-longitude grids. Thus, there are 6 faces available for each of its fields below.
+            <h4 class="table-label">GEOS Atmospheric Data</h4>
+            <p>The GEOS model uses cubed-sphere grid that helps improve the representation of the polar regions compared to traditional latitude-longitude grids. Thus, there are 6 faces available for each of its fields below.</p>
             <table class="table table-bordered">
                 <thead>
                     <tr>
@@ -345,8 +347,8 @@ sectionid: data
                     </tr>
                 </tbody>
             </table>
-            LLC2160 Ocean Data:
-                The MITgcm model uses a latitude-longitude grid for its ocean model data. The variables available are listed below. The depth levels are the same as those in the ECCO LLC4320 dataset.
+            <h4 class="table-label">LLC2160 Ocean Data</h4>
+            <p>The MITgcm model uses a latitude-longitude grid for its ocean model data. The variables available are listed below. The depth levels are the same as those in the ECCO LLC4320 dataset.</p>
              <table class="table table-bordered">
                 <thead>
                     <tr>
