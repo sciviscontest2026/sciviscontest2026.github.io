@@ -9,8 +9,8 @@ sectionid: program
     <h1>Program</h1>
     <p class="lead page-intro">Schedule for the 2026 IEEE SciVis Contest presentations at IEEE VIS.</p>
 
-    <h2>Monday, November 9</h2>
-    <p>8:00–11:30am, Eastern Time (Boston). This is a tentative schedule and may change.</p>
+    <h2 class="program-day">Monday, November 9</h2>
+    <p class="program-note">8:00–11:30am, Eastern Time (Boston). This is a tentative schedule and may change.</p>
 
     <div class="table-responsive">
         <table class="table program-table">

@@ -333,6 +333,16 @@ $tab-radius: 6px;
 }
 
 // Program schedule
+.program-day {
+  font-size: 26px;
+  margin-top: 8px !important;
+}
+
+.program-note {
+  margin-bottom: 4px;
+  color: #666;
+}
+
 .program-table {
   margin-top: 12px;
   border: 1px solid $tab-line;
@@ -351,7 +361,7 @@ $tab-radius: 6px;
   }
 
   > tbody > tr > td {
-    padding: 12px 14px;
+    padding: 7px 14px;
     border: 0;
     border-top: 1px solid #f0f0f0;
     vertical-align: middle;
@@ -362,7 +372,7 @@ $tab-radius: 6px;
   }
 
   .program-time {
-    width: 150px;
+    width: 200px;
     white-space: nowrap;
     font-weight: 500;
     color: $tab-ink;
@@ -370,8 +380,8 @@ $tab-radius: 6px;
   }
 
   .program-duration {
-    display: block;
-    margin-top: 2px;
+    display: inline;
+    margin-left: 8px;
     font-size: 12px;
     font-weight: 400;
     color: #888;

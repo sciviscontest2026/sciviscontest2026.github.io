@@ -2,6 +2,18 @@
 .page-content .container {
     margin-top: 20px;
 }
+
+/* Breathing room between the fixed navbar and page content. Pages that open
+   with the hero (.jumbotron) aren't matched, so the hero stays flush. */
+.page-content > .wrapper > .container:first-child {
+    margin-top: 12px;
+}
+
+@media (max-width: 767px) {
+    .page-content > .wrapper > .container:first-child {
+        margin-top: 12px;
+    }
+}
   
   .presentation-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
