@@ -39,15 +39,15 @@ sectionid: program
         </li>
         <li class="program-item is-paper" data-start="8:50" data-end="9:03">
             <div class="program-time">8:50<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1023</span>Connecting Climate Projections to Disaster Impacts and Economic Vulnerability through an Interactive Visual Analytics Dashboard<span class="program-who">Peter Waldert</span></div>
+            <div class="program-title"><span class="program-id">1013</span>KuroshioVis: Hypothesis-Driven Discovery of Mesoscale Air-Sea Interaction through Coarse-to-Fine Exploration<span class="program-who">Xi Duan</span></div>
         </li>
         <li class="program-item is-paper" data-start="9:03" data-end="9:16">
             <div class="program-time">9:03<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1013</span>KuroshioVis: Hypothesis-Driven Discovery of Mesoscale Air-Sea Interaction through Coarse-to-Fine Exploration<span class="program-who">Xi Duan</span></div>
+            <div class="program-title"><span class="program-id">1033</span>CLIMATE: Coordinated Linked Interactive Multiscale Analysis of Temperature, Atmosphere, and Ocean Evolution<span class="program-who">Lars Linsen</span></div>
         </li>
         <li class="program-item is-paper" data-start="9:16" data-end="9:29">
             <div class="program-time">9:16<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1033</span>CLIMATE: Coordinated Linked Interactive Multiscale Analysis of Temperature, Atmosphere, and Ocean Evolution<span class="program-who">Lars Linsen</span></div>
+            <div class="program-title"><span class="program-id">1023</span>Connecting Climate Projections to Disaster Impacts and Economic Vulnerability through an Interactive Visual Analytics Dashboard<span class="program-who">Peter Waldert</span></div>
         </li>
 
         <li class="program-item is-break" data-start="9:29" data-end="10:00">
