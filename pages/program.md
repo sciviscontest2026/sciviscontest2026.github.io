@@ -12,6 +12,7 @@ sectionid: program
     <div class="program-meta">
         <span><i class="fa fa-calendar" aria-hidden="true"></i><strong>Monday, November 9</strong></span>
         <span><i class="fa fa-clock-o" aria-hidden="true"></i>8:00–11:30am Eastern Time (Boston)</span>
+        <span><i class="fa fa-map-marker" aria-hidden="true"></i><a href="https://ieeevis.org/year/2026/venue/?day=mon&amp;floor=7&amp;room=empire#map">Empire, Floor 7</a></span>
         <span class="program-tentative">Tentative, subject to change</span>
     </div>
 
