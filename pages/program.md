@@ -27,27 +27,27 @@ sectionid: program
         </li>
         <li class="program-item is-paper" data-start="8:11" data-end="8:24">
             <div class="program-time">8:11<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1021</span>Exploring Thermohaline Circulation through Water-Mass Slices and Vertical-Velocity Cores<span class="program-who">Shih-Hsuan Hung</span></div>
+            <div class="program-title"><span class="program-id">1021</span>Exploring Thermohaline Circulation through Water-Mass Slices and Vertical-Velocity Cores<span class="program-who">Kai-Chi Chang, Khai Li Tay, Mingyi Kuo, Yuan Jhen Li, Shih-Hsuan Hung</span></div>
         </li>
         <li class="program-item is-paper" data-start="8:24" data-end="8:37">
             <div class="program-time">8:24<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1037</span>ARGUS: A Live Globe for Petabyte-Scale Climate Data Streaming in Browser and VR<span class="program-who">David Santos</span></div>
+            <div class="program-title"><span class="program-id">1037</span>ARGUS: A Live Globe for Petabyte-Scale Climate Data Streaming in Browser and VR<span class="program-who">Hernan Hernan Santos, Tiansu Chen, Thang Ha, Wai Tong</span></div>
         </li>
         <li class="program-item is-paper" data-start="8:37" data-end="8:50">
             <div class="program-time">8:37<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1028</span>Interactive Climate World Map<span class="program-who">Jorge Luis Ortiz Libreros</span></div>
+            <div class="program-title"><span class="program-id">1028</span>Interactive Climate World Map<span class="program-who">Jorge Luis Ortiz Libreros, Emmanuel Morales, Cecilia Cruz Lopez</span></div>
         </li>
         <li class="program-item is-paper" data-start="8:50" data-end="9:03">
             <div class="program-time">8:50<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1013</span>KuroshioVis: Hypothesis-Driven Discovery of Mesoscale Air-Sea Interaction through Coarse-to-Fine Exploration<span class="program-who">Xi Duan</span></div>
+            <div class="program-title"><span class="program-id">1013</span>KuroshioVis: Hypothesis-Driven Discovery of Mesoscale Air-Sea Interaction through Coarse-to-Fine Exploration<span class="program-who">Yuanzhi Chen, Yiwei Lin, Xi Duan, Qingqing He, Ruiliang Xu, Yucheng Wang, Qiong Zeng</span></div>
         </li>
         <li class="program-item is-paper" data-start="9:03" data-end="9:16">
             <div class="program-time">9:03<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1033</span>CLIMATE: Coordinated Linked Interactive Multiscale Analysis of Temperature, Atmosphere, and Ocean Evolution<span class="program-who">Lars Linsen</span></div>
+            <div class="program-title"><span class="program-id">1033</span>CLIMATE: Coordinated Linked Interactive Multiscale Analysis of Temperature, Atmosphere, and Ocean Evolution<span class="program-who">Maik Becker, David Beckschulte, Maik B6lle, Raluca Cimpoaca, Alpha Ciss, Matthias Hering, Philipp Jacobs, Janes Materne, Alex Nigge, Lukas Rawert, Alexander Thorbrcgge, Marius Schmitz, Reyhaneh Sabbagh Gol, Thomas Miro, Lars Linsen</span></div>
         </li>
         <li class="program-item is-paper" data-start="9:16" data-end="9:29">
             <div class="program-time">9:16<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1023</span>Connecting Climate Projections to Disaster Impacts and Economic Vulnerability through an Interactive Visual Analytics Dashboard<span class="program-who">Peter Waldert</span></div>
+            <div class="program-title"><span class="program-id">1023</span>Connecting Climate Projections to Disaster Impacts and Economic Vulnerability through an Interactive Visual Analytics Dashboard<span class="program-who">Peter Waldert, David Kneidinger, Patrick Hanfstingl, Judith Heinzl, Jakob Zenz, Valentin Lasse Weis, Iris de Vries, Tobias Schreck</span></div>
         </li>
 
         <li class="program-item is-break" data-start="9:29" data-end="10:00">
@@ -61,7 +61,7 @@ sectionid: program
         </li>
         <li class="program-item is-paper" data-start="10:00" data-end="10:13">
             <div class="program-time">10:00<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1034</span>From Rendering to Discovery: Volumetric Visualization and AI Image Embeddings for DYAMOND GEOS<span class="program-who">Matt Rehme</span></div>
+            <div class="program-title"><span class="program-id">1034</span>From Rendering to Discovery: Volumetric Visualization and AI Image Embeddings for DYAMOND GEOS<span class="program-who">Matthew Rehme, Nihanth W Cherukuru</span></div>
         </li>
         <li class="program-item is-paper" data-start="10:13" data-end="10:26">
             <div class="program-time">10:13<small>12 min</small></div>
@@ -69,15 +69,18 @@ sectionid: program
         </li>
         <li class="program-item is-paper" data-start="10:26" data-end="10:39">
             <div class="program-time">10:26<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1025</span>Multi-Agent Harness for Autonomous Multi-linked Views Visual Analytic Systems Design: An Exploratory Study on the IEEE SciVis Contest 2026<span class="program-who">Shusen Liu</span></div>
+            <div class="program-title"><span class="program-id">1025</span>Multi-Agent Harness for Autonomous Multi-linked Views Visual Analytic Systems Design: An Exploratory Study on the IEEE SciVis Contest 2026<span class="program-who">Haichao Miao, Zhimin Li, Kuangshi Ai, Kaiyuan Tang, Chaoli Wang, Peer-Timo Bremer, Shusen Liu</span></div>
         </li>
         <li class="program-item is-paper" data-start="10:39" data-end="10:52">
             <div class="program-time">10:39<small>12 min</small></div>
-            <div class="program-title"><span class="program-id">1024</span>Exploring Global Climate Projections in a Socioeconomic Context through Guided Storytelling and Population Exposure Analysis<span class="program-who">Peter Waldert</span></div>
+            <div class="program-title"><span class="program-id">1024</span>Exploring Global Climate Projections in a Socioeconomic Context through Guided Storytelling and Population Exposure Analysis<span class="program-who">Peter Waldert, Matthias Berger, Elisabeth Kleint, Lukas Schaffer, David Kneidinger, Tobias Schreck</span></div>
         </li>
         <li class="program-item is-video" data-start="10:52" data-end="11:05">
             <div class="program-time">10:52<small>12 min</small></div>
-            <div class="program-title"><i class="fa fa-film" aria-hidden="true"></i>Video presentations<span class="program-who">3 videos, 4 min each(approx.)</span></div>
+            <div class="program-title"><i class="fa fa-film" aria-hidden="true"></i>Video presentations<span class="program-who">3 videos, approximately 4 min each</span>
+                <div><span class="program-id">1029</span>StormCore3D: Tracking Storms Over Time and Observing Patterns for Disaster Preparedness<span class="program-who">Mirza Tairin Tarique, Mitrasree Deb</span></div>
+                <div><span class="program-id">1035</span>Topology of a Warming World<span class="program-who">Nikhil Souri Yalamati, Raghavendra Sridharamurthy, Prashant Goswami</span></div>
+            </div>
         </li>
 
         <li class="program-section">
