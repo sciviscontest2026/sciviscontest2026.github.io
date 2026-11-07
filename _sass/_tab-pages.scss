@@ -353,6 +353,10 @@ $tab-radius: 6px;
   }
 }
 
+.program-meta-remote {
+  flex-basis: 100%;
+}
+
 .program-agenda + .program-meta {
   margin-top: 32px;
 }
